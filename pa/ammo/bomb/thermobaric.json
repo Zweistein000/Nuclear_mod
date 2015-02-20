@@ -11,13 +11,6 @@
   "impact_decals": [
     "/pa/effects/specs/scorch_c_01.json"
   ],
-  "events": {
-    "died": {
-      "audio_cue": "/SE/Impacts/shell_artillery",
-      "effect_spec": "/pa/effects/specs/default_building_explosion.pfx",
-      "effect_scale": 3
-    }
-  },
   "damage_volume": {
     "initial_radius": 5,
     "radius_velocity": 20,
