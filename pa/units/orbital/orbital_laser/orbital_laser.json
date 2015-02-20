@@ -31,10 +31,10 @@
     "guard_layer": "WL_AnySurface",
     "navigation": {
         "type": "orbital",
-        "acceleration": 25,
-        "brake": 25,
-        "move_speed": 25,
-        "turn_speed": 90,
+        "acceleration": 2,
+        "brake": 2,
+        "move_speed": 30,
+        "turn_speed": 10,
         "hover_time": -1
     },
     "physics": {

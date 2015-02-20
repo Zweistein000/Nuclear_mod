@@ -2,8 +2,8 @@
     "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
     "display_name": "!LOC(units:bolo.message):Bolo",
     "description": "!LOC(units:light_tank_equipped_with_basic_anti_land_and_anti_ship_guns.message):Light tank- Equipped with basic anti-land and anti-ship guns.",
-    "max_health": 250,
-    "build_metal_cost": 150,
+    "max_health": 300,
+    "build_metal_cost": 2,
     "attachable": {
         "offsets": {
             "root": [
@@ -35,7 +35,7 @@
         "type": "land-small",
         "acceleration": 100,
         "brake": 100,
-        "move_speed": 10,
+        "move_speed": 12,
         "turn_speed": 90
     },
     "physics": {

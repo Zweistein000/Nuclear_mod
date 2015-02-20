@@ -2,7 +2,7 @@
     "base_spec": "/pa/units/sea/base_ship/base_ship.json",
     "display_name": "!LOC(units:advanced_fabrication_ship.message):Advanced Fabrication Ship",
     "description": "!LOC(units:advanced_fabricator_wired_to_build_naval_structures.message):Advanced fabricator- Wired to build naval structures.",
-    "max_health": 300,
+    "max_health": 250,
     "build_metal_cost": 20,
     "spawn_layers": "WL_WaterSurface",
     "attachable": {
@@ -47,10 +47,10 @@
     },
     "navigation": {
         "type": "deepwater",
-        "acceleration": 100,
-        "brake": 100,
-        "move_speed": 10,
-        "turn_speed": 90,
+        "acceleration": 3,
+        "brake": 9,
+        "move_speed": 13,
+        "turn_speed": 40,
         "park_stamp_type": "sphere",
         "park_stamp_cost": 10
     },

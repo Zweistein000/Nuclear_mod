@@ -42,9 +42,9 @@
     "guard_layer": "WL_LandHorizontal",
     "navigation": {
         "type": "air",
-        "acceleration": 35,
+        "acceleration": 100,
         "brake": 35,
-        "move_speed": 35,
+        "move_speed": 70,
         "turn_speed": 180,
         "circle_min_time": 1,
         "circle_max_time": 3,
