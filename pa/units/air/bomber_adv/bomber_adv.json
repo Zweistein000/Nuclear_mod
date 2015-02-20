@@ -12,6 +12,7 @@
     "UNITTYPE_FactoryBuild"
   ],
   "guard_radius": 100,
+  "armor_type": "AT_Bomber",
   "guard_layer": "WL_AnySurface",
   "navigation": {
     "aggressive_height": 100,

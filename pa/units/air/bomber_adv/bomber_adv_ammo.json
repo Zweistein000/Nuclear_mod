@@ -14,18 +14,14 @@
   "impact_decals": [
     "/pa/effects/large_missile/nuke_tac_scorch.json"
   ],
-  "events": {
-    "died": {
-      "audio_cue": "/SE/Impacts/shell_artillery",
-      "effect_spec": "/pa/effects/specs/default_building_explosion.pfx",
-      "effect_scale": 2
-    }
-  },
   "damage_volume": {
     "initial_radius": 1,
     "radius_velocity": 30,
     "radius_accel": 0,
     "delay": 0,
     "burnable_remove_radius": 60
+  },
+  "armor_damage_map": {
+    "AT_Bomber": 0
   }
 }
