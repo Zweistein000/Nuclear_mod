@@ -1,0 +1,21 @@
+{
+    "enabled": true,
+    "context": "server",
+    "identifier": "com.pa.nukemod",
+    "display_name": "Nuclear_mod",
+    "build": "78071",
+    "date": "2015/2/20",
+    "description": "Derp mod: Simple mod that overuses the term nuke",
+    "category": [
+        "in-game",
+        "server-mod"
+    ],
+    "author": "BananaManAlucard, Zweistein",
+    "version": "rpe alpha",
+    "signature": "(not yet implemented)",
+    "forum": "",
+    "icon": "",
+    "priority": 100,
+    "dependencies": [
+    ]
+}
