@@ -11,6 +11,5 @@
         "/pa/effects/large_missile/nuke_tac_scorch.json"
     ],
     "max_velocity": 200,
-    "lifetime": 10,
-    "audio_loop": "/SE/Movement/missile/tactical_missile_fly_loop"
+    "lifetime": 10
 }

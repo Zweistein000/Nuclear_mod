@@ -14,9 +14,7 @@
     "auto_attack": true,
     "target_layers": [
         "WL_LandHorizontal",
-        "WL_WaterSurface",
-        "WL_Seafloor",
-        "WL_Air"
+        "WL_WaterSurface"
     ],
     "target_priorities": [
         "Structure - Wall",
