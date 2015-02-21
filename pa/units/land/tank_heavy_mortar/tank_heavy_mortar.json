@@ -3,7 +3,7 @@
     "display_name": "!LOC(units:sheller.message):Sheller",
     "description": "!LOC(units:mortar_tank_equipped_with_advanced_mobile_artillery.message):Mortar tank- Equipped with advanced mobile artillery.",
     "max_health": 125,
-    "build_metal_cost": 125,
+    "build_metal_cost": 150,
     "influence_radius": 200,
     "attachable": {
         "offsets": {
