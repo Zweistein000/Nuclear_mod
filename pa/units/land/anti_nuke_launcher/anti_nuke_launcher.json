@@ -12,7 +12,7 @@
     "buildable_projectiles": [
         "/pa/units/land/anti_nuke_launcher/anti_nuke_launcher_ammo.json"
     ],
-    "factory_cooldown_time": 5,
+    "factory_cooldown_time": 1,
     "factory": {
         "store_units": true,
         "spawn_points": [
