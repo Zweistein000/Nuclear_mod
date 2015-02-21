@@ -11,10 +11,6 @@
     "lifetime": 15,
   "burn_damage": 200,
   "burn_radius": 80,
-  "consumption": {
-    "energy": 5
-  },
-  "energy_efficiency_requirement": 0.9,
     "max_health": 1,
     "influence_radius": 400,
   "model": {
