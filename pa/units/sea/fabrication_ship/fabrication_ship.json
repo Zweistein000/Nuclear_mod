@@ -2,7 +2,7 @@
     "base_spec": "/pa/units/sea/base_ship/base_ship.json",
     "display_name": "!LOC(units:fabrication_ship.message):Fabrication Ship",
     "description": "!LOC(units:basic_fabricator_wired_to_build_naval_structures.message):Basic fabricator- Wired to build naval structures.",
-    "max_health": 100,
+    "max_health": 150,
     "build_metal_cost": 5,
     "spawn_layers": "WL_WaterSurface",
     "mesh_bounds": [
@@ -43,10 +43,10 @@
     ],
     "navigation": {
         "type": "deepwater",
-        "acceleration": 100,
-        "brake": 100,
-        "move_speed": 10,
-        "turn_speed": 90,
+        "acceleration": 3,
+        "brake": 9,
+        "move_speed": 13,
+        "turn_speed": 40,
         "park_stamp_type": "sphere",
         "park_stamp_cost": 10
     },
