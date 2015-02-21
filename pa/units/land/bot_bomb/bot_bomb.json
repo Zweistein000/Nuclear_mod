@@ -1,9 +1,10 @@
 {
     "base_spec": "/pa/units/land/base_bot/base_bot.json",
-    "display_name": "!LOC(units:boom.message):Boom",
-    "description": "!LOC(units:bomb_bot_equipped_with_self_destruction_mechanism.message):Bomb bot- Equipped with Self Destruction mechanism.",
+    "display_name": "Boom",
+    "description": "Fast bot with a tactical nuke",
     "max_health": 10,
     "build_metal_cost": 45,
+    "armor_type": "AT_Suicide",
     "wreckage_health_frac": 0,
     "spawn_layers": "WL_LandHorizontal",
     "attachable": {
@@ -34,10 +35,10 @@
     },
     "guard_layer": "WL_LandHorizontal",
     "navigation": {
-        "type": "land-small",
+        "type": "amphibious",
         "acceleration": 200,
         "brake": 200,
-        "move_speed": 23,
+        "move_speed": 30,
         "turn_speed": 720
     },
     "physics": {
