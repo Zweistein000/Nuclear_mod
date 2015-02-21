@@ -3,7 +3,7 @@
     "display_name": "!LOC(units:advanced_energy_plant.message):Advanced Energy Plant",
     "description": "!LOC(units:advanced_manufacturing_produces_energy.message):Advanced manufacturing- Produces energy.",
     "max_health": 5000,
-    "build_metal_cost": 2700,
+    "build_metal_cost": 30,
     "atrophy_rate": 45,
     "atrophy_cool_down": 15,
     "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",

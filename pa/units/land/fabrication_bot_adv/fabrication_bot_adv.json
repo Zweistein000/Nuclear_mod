@@ -4,7 +4,7 @@
     "description": "!LOC(units:advanced_fabricator_wired_to_build_structures.message):Advanced fabricator- Wired to build structures.",
     "max_health": 150,
     "spawn_layers": "WL_LandHorizontal",
-    "build_metal_cost": 2100,
+    "build_metal_cost": 20,
     "attachable": {
         "offsets": {
             "root": [

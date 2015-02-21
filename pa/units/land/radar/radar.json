@@ -3,7 +3,7 @@
     "display_name": "!LOC(units:radar.message):Radar",
     "description": "!LOC(units:basic_radar_detects_nearby_enemy_land_sea_and_air_units.message):Basic radar- Detects nearby enemy land, sea, and air units.",
     "max_health": 500,
-    "build_metal_cost": 200,
+    "build_metal_cost": 5,
     "consumption": {
         "energy": 3
     },

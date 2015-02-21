@@ -3,7 +3,7 @@
     "display_name": "!LOC(units:metal_storage.message):Metal Storage",
     "description": "!LOC(units:manufacturing_increases_maximum_metal_storage_capacity.message):Manufacturing- Increases maximum metal storage capacity.",
     "max_health": 7500,
-    "build_metal_cost": 450,
+    "build_metal_cost": 5,
     "atrophy_rate": 7.5,
     "atrophy_cool_down": 15,
     "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",

@@ -3,7 +3,7 @@
     "display_name": "!LOC(units:fabrication_ship.message):Fabrication Ship",
     "description": "!LOC(units:basic_fabricator_wired_to_build_naval_structures.message):Basic fabricator- Wired to build naval structures.",
     "max_health": 100,
-    "build_metal_cost": 200,
+    "build_metal_cost": 5,
     "spawn_layers": "WL_WaterSurface",
     "mesh_bounds": [
         4,
