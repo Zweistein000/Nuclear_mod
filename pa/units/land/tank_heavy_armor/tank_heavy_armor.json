@@ -37,8 +37,7 @@
         "acceleration": 100,
         "brake": 100,
         "move_speed": 10,
-        "turn_speed": 100,
-        "group_preference": "front"
+        "turn_speed": 100
     },
     "physics": {
         "radius": 6,
