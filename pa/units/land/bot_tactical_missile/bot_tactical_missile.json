@@ -1,13 +1,9 @@
 {
     "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
-    "display_name": "!LOC(units:bluehawk.message):Bluehawk",
-    "description": "!LOC(units:tactical_missile_bot_medium_range_advanced_artillery_bot.message):Tactical missile bot- Medium range advanced artillery bot.",
-    "build_metal_cost": 100,
+    "display_name": "Bluehawk",
+    "description": "Stealthy tactical missile nuke bot that. 5 Energy drain cost.",
+    "build_metal_cost": 1200,
     "max_health": 200,
-	  "consumption": {
-    "energy": 5
-  },
-  "energy_efficiency_requirement": 0.9,
     "attachable": {
         "offsets": {
             "root": [
@@ -48,7 +44,7 @@
         "push_class": 2
     },
     "recon": {
-	    "observable": {
+    "observable": {
       "layer": "surface_and_air",
       "ignore_radar": true,
 	  "uses_energy": true
@@ -59,13 +55,7 @@
                     "layer": "surface_and_air",
                     "channel": "sight",
                     "shape": "capsule",
-                    "radius": 100
-                },
-                {
-                    "layer": "underwater",
-                    "channel": "sight",
-                    "shape": "capsule",
-                    "radius": 75
+                    "radius": 125
                 }
             ]
         }
