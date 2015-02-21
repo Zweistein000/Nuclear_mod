@@ -1,7 +1,7 @@
 {
     "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
-    "display_name": "!LOC(units:sheller.message):Sheller",
-    "description": "!LOC(units:mortar_tank_equipped_with_advanced_mobile_artillery.message):Mortar tank- Equipped with advanced mobile artillery.",
+    "display_name": "Sheller",
+    "description": "Medium range rapid fire nuclear artillery tank. 25 Energy per shot.",
     "max_health": 125,
     "build_metal_cost": 150,
     "influence_radius": 200,
