@@ -21,6 +21,7 @@
     "unit_types": [
         "UNITTYPE_Bot",
         "UNITTYPE_Mobile",
+		"UNITTYPE_FactoryBuild",
         "UNITTYPE_Offense",
         "UNITTYPE_AirDefense",
         "UNITTYPE_Land",

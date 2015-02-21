@@ -12,8 +12,8 @@
         "UNITTYPE_Structure",
         "UNITTYPE_Tactical",
         "UNITTYPE_Defense",
-        "UNITTYPE_Advanced",
-        "UNITTYPE_FabAdvBuild",
+        "UNITTYPE_Basic",
+        "UNITTYPE_FabBuild",
         "UNITTYPE_Important"
     ],
     "command_caps": [
