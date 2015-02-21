@@ -24,9 +24,9 @@
       0
     ]
   },
-  "sim_impact_effect":"/pa/effects/large_missile/nuke_tac_ent.json",
+  "sim_impact_effect":"/pa/effects/large_missile/nuke_strat_ent.json",
   "impact_decals": [
-    "/pa/effects/large_missile/nuke_tac_scorch.json"
+    "/pa/effects/large_missile/nuke_strat_scorch.json"
   ],
   "audio_loop": "/SE/Movement/missile/nuke_missile_fly_loop",
     "physics": {
