@@ -22,8 +22,7 @@
         "ORDER_Move",
         "ORDER_Patrol",
         "ORDER_Attack",
-        "ORDER_Assist",
-        "ORDER_FireSecondaryWeapon"
+        "ORDER_Assist"
     ],
     "navigation": {
         "type": "underwater",
@@ -75,8 +74,7 @@
                 "socket_muzzle03",
                 "socket_muzzle04",
                 "socket_muzzle05"
-            ],
-            "secondary_weapon": true
+            ]
         }
     ],
     "death_weapon": {
