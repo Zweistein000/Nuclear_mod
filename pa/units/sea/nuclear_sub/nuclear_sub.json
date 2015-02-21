@@ -1,8 +1,8 @@
 {
     "base_spec": "/pa/units/sea/base_ship/base_ship.json",
     "display_name": "Kraken",
-    "description": "Stealth Sub: Anti-sub and anti-ship torpedoes, short-range hailfire missiles. Undetectable by radar.",
-    "max_health": 250,
+    "description": "Firs Strategic nukes, only detectable in water.",
+    "max_health": 125,
     "build_metal_cost": 750,
     "spawn_layers": "WL_Underwater",
     "mesh_bounds": [
@@ -18,14 +18,21 @@
         "UNITTYPE_Sub",
         "UNITTYPE_FactoryBuild"
     ],
+    "command_caps": [
+        "ORDER_Move",
+        "ORDER_Patrol",
+        "ORDER_Attack",
+        "ORDER_Assist",
+        "ORDER_FireSecondaryWeapon"
+    ],
     "navigation": {
         "type": "underwater",
-        "acceleration": 5,
+        "acceleration": 3,
         "brake": 15,
-        "move_speed": 13,
-        "turn_speed": 15,
+        "move_speed": 11,
+        "turn_speed": 20,
         "dodge_radius": 10,
-        "dodge_multiplier": 1,
+        "dodge_multiplier": 0,
         "wobble_factor": 0,
         "wobble_speed": 0
     },
@@ -36,22 +43,15 @@
     },
     "recon": {
         "observable": {
-            "layer": "underwater",
-            "ignore_radar": true
+            "layer": "underwater"
         },
         "observer": {
             "items": [
                 {
-                    "layer": "surface_and_air",
-                    "channel": "sight",
-                    "shape": "capsule",
-                    "radius": 200
-                },
-                {
                     "layer": "underwater",
                     "channel": "sight",
                     "shape": "capsule",
-                    "radius": 200
+                    "radius": 75
                 }
             ]
         }
@@ -66,13 +66,6 @@
     },
     "tools": [
         {
-            "spec_id": "/pa/units/sea/nuclear_sub/nuclear_sub_tool_weapon.json",
-            "aim_bone": "socket_muzzle01",
-            "record_index": 0,
-            "fire_event": "fired0",
-            "muzzle_bone": "socket_muzzle01"
-        },
-        {
             "spec_id": "/pa/units/sea/nuclear_sub/nuclear_sub_tool_weapon_missile.json",
             "aim_bone": "socket_muzzle02",
             "record_index": 1,
@@ -82,9 +75,13 @@
                 "socket_muzzle03",
                 "socket_muzzle04",
                 "socket_muzzle05"
-            ]
+            ],
+            "secondary_weapon": true
         }
     ],
+    "death_weapon": {
+        "ground_ammo_spec": "/pa/ammo/self_destruct/Sub_death.json"
+    },
     "events": {
         "build_complete": {
             "audio_cue": "/SE/Build_Complete/sea"

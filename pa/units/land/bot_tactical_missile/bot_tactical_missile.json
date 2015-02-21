@@ -92,6 +92,9 @@
             ]
         }
     ],
+    "death_weapon": {
+        "ground_ammo_spec": "/pa/ammo/self_destruct/adv_pgen.json"
+    },
     "events": {
         "build_complete": {
             "audio_cue": "/SE/Build_Complete/bot"
