@@ -2,7 +2,7 @@
     "base_spec": "/pa/units/land/base_structure/base_structure.json",
     "display_name": "!LOC(units:advanced_energy_plant.message):Advanced Energy Plant",
     "description": "!LOC(units:advanced_manufacturing_produces_energy.message):Advanced manufacturing- Produces energy.",
-    "max_health": 5000,
+    "max_health": 500,
     "build_metal_cost": 30,
     "atrophy_rate": 45,
     "atrophy_cool_down": 15,
