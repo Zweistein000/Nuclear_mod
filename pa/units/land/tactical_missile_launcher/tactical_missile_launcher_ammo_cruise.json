@@ -67,7 +67,8 @@
       "stage_duration": 5000,
       "stage_turn_rate": 180,
       "rotates_to_velocity": true
-    }, 
+    }
+	], 
   "system_velocity_multiplier": 20, 
   "turn_rate": 15
 }
