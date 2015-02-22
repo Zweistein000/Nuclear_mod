@@ -1,9 +1,9 @@
 {
     "base_spec": "/pa/units/sea/base_ship/base_ship.json",
     "display_name": "Sea quake",
-    "description": "A bot with a jet engine and jump jets and carries a nuke.",
-    "max_health": 175,
-    "build_metal_cost": 150,
+    "description": "A torpedo boat with nuclear payload.",
+    "max_health": 150,
+    "build_metal_cost": 7,
     "spawn_layers": "WL_WaterSurface",
    "guard_layer": "WL_WaterSurface",
     "command_caps": [
@@ -45,7 +45,7 @@
                     "layer": "underwater",
                     "channel": "sight",
                     "shape": "capsule",
-                    "radius": 75
+                    "radius": 50
                 }
             ]
         }
@@ -60,6 +60,9 @@
       "aim_bone": "bone_root"
     }
   ],
+    "death_weapon": {
+        "ground_ammo_spec": "/pa/ammo/self_destruct/basic_unit.json"
+    },
     "events": {
         "build_complete": {
             "audio_cue": "/SE/Build_Complete/sea"

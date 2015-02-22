@@ -50,7 +50,7 @@
                     "layer": "underwater",
                     "channel": "sight",
                     "shape": "capsule",
-                    "radius": 75
+                    "radius": 50
                 }
             ]
         }

@@ -1,1 +1,5 @@
-Effects, tools and ammo code for tactical nukes were initally done for RCBM by Nanotlahe, YourLocalMadSci, Liquius and Zweistein. 
+Effects, tools and ammo code for the following units were initally done for RCBM by Nanotlahe, YourLocalMadSci, Liquius and Zweistein:
+ - Advanced bomber
+ - Any unit using tactical nukes has had one part of the other copied from RCBM
+ - Sea Quakes leap becasue YourLocalMadSci made it possible in RCBM.
+ - Sea Quake torpedoes are based on RCBM supercavitating torpedoes. 
