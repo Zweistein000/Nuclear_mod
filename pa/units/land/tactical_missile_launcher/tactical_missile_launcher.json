@@ -8,10 +8,11 @@
     "atrophy_cool_down": 15,
     "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
     "unit_types": [
-        "UNITTYPE_Land",
-        "UNITTYPE_Structure",
-        "UNITTYPE_Tactical",
-        "UNITTYPE_Defense",
+    "UNITTYPE_Land", 
+    "UNITTYPE_Structure", 
+    "UNITTYPE_Offense", 
+    "UNITTYPE_Nuke", 
+    "UNITTYPE_Factory", 
         "UNITTYPE_Basic",
         "UNITTYPE_FabBuild",
         "UNITTYPE_Important"
@@ -68,13 +69,11 @@
     "tools": [
         {
             "spec_id": "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_tool_weapon.json",
-            "aim_bone": "bone_missile01",
-            "muzzle_bone": "bone_missile01"
+            "aim_bone": "bone_root" 
         },
         {
-            "spec_id": "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_tool_weapon_cruise.json",
-            "aim_bone": "bone_missile01",
-            "muzzle_bone": "bone_missile01"
+            "spec_id": "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_tool_cruise.json",
+            "aim_bone": "bone_root"
         },
         {
             "spec_id": "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_build_arm.json",

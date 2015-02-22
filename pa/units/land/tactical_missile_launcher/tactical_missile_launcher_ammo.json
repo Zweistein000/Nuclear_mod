@@ -14,7 +14,7 @@
     "radius_accel": 30, 
     "radius_velocity": 40
   }, 
-  "description": "Tactical niclear missile. Shot down bv anti-nukes.", 
+  "description": "Tactical nuclear missile. Shot down bv anti-nukes.", 
   "display_name": "Tactical Nuke", 
   "flight_type": "Staged", 
   "full_damage_splash_radius": 10, 
