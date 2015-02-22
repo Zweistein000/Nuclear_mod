@@ -1,6 +1,6 @@
 {
     "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
-    "display_name": "!LOC(units:vanguard.message):Vanguard",
+    "display_name": "!LOC(units:annihilator.message):Annihilator",
     "description": "!LOC(units:heavy_tank_advanced_short_range_heavily_armored_vehicle.message):Heavy tank- Advanced short range, heavily armored vehicle.",
     "max_health": 500,
     "build_metal_cost": 8,
