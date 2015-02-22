@@ -111,7 +111,6 @@
         "/pa/units/sea/naval_factory/naval_factory.json",
         "/pa/units/sea/naval_factory_adv/naval_factory_adv.json",
         "/pa/units/sea/nuclear_sub/nuclear_sub.json",
-        "/pa/units/sea/sea_scout/sea_scout.json",
-        "/pa/units/sea/torpedo_launcher/torpedo_launcher.json"
+        "/pa/units/sea/sea_scout/sea_scout.json"
     ]
 }
