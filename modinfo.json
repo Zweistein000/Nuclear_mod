@@ -11,11 +11,9 @@
         "server-mod"
     ],
     "author": "BananaManAlucard, Zweistein",
-    "version": "rpe alpha",
+    "version": "pre alpha",
     "signature": "(not yet implemented)",
     "forum": "",
     "icon": "",
-    "priority": 100,
-    "dependencies": [
-    ]
+    "priority": 100
 }

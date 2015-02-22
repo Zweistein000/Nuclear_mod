@@ -1,10 +1,9 @@
 {
-  "tool_type": "TOOL_Weapon",
-  "range_height": 45,
+  "base_spec": "/pa/tools/base_tool/base_turret.json",
     "ammo_id": "/pa/units/sea/sea_scout/sea_scout_ammo.json",
   "rate_of_fire": 6,
   "idle_aim_delay": 5,
-  "max_range": 30,
+  "max_range": 25,
   "yaw_rate": 3600,
   "pitch_rate": 3600,
   "yaw_range": 180,
@@ -14,6 +13,8 @@
   "self_destruct": true,
   "target_layers": [
     "WL_LandHorizontal",
+    "WL_Seafloor",
+    "WL_Underwater",
     "WL_WaterSurface"
   ]
 }

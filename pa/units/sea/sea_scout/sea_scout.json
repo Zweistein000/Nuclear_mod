@@ -5,6 +5,7 @@
     "max_health": 175,
     "build_metal_cost": 150,
     "spawn_layers": "WL_WaterSurface",
+   "guard_layer": "WL_WaterSurface",
     "command_caps": [
         "ORDER_Move",
         "ORDER_Attack",
@@ -55,9 +56,10 @@
     "tools": [
         {
             "spec_id": "/pa/units/sea/sea_scout/sea_scout_tool_weapon.json",
-            "aim_bone": "bone_root"
-        }
-    ],
+      "muzzle_bone": "bone_root",
+      "aim_bone": "bone_root"
+    }
+  ],
     "events": {
         "build_complete": {
             "audio_cue": "/SE/Build_Complete/sea"
