@@ -1,5 +1,6 @@
 {
-  "ammo_id": "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_ammo.json", 
+  "base_spec": "/pa/tools/large_missile/cruise.json",
+  "ammo_id": "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_ammo_cruise.json", 
   "ammo_source": "factory", 
   "auto_attack": false, 
   "auto_task_type": "none", 

@@ -3,3 +3,4 @@ Effects, tools and ammo code for the following units were initally done for RCBM
  - Any unit using tactical nukes has had one part of the other copied from RCBM
  - Sea Quakes leap becasue YourLocalMadSci made it possible in RCBM.
  - Sea Quake torpedoes are based on RCBM supercavitating torpedoes. 
+ - SXX Was entirely copied and modified form RCBM

@@ -1,7 +1,7 @@
 {
     "base_spec": "/pa/units/land/base_structure/base_structure.json",
-    "display_name": "!LOC(units:catapult.message):Catapult",
-    "description": "!LOC(units:tactical_missile_launcher_equipped_with_advanced_long_range_anti_land_missile_launcher.message):Tactical missile launcher- Equipped with advanced long range anti-land missile launcher.",
+    "display_name": "Tactical Missile Launcher",
+    "description": "Launches tactical missiles. Nuclear or otherwise. Manual attack.",
     "max_health": 500,
     "build_metal_cost": 30,
     "atrophy_rate": 30,
@@ -16,10 +16,22 @@
         "UNITTYPE_FabBuild",
         "UNITTYPE_Important"
     ],
+    "buildable_projectiles": [
+        "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_ammo.json"
+        "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_ammo_cruise.json"
+    ],
+    "factory": {
+        "store_units": true,
+        "spawn_points": [
+            "bone_missile01"
+        ],
+        "initial_build_spec": "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_ammo_cruise.json",
+        "default_build_stance": "Continuous"
+    },
     "command_caps": [
+        "ORDER_FactoryBuild",
         "ORDER_Attack"
     ],
-    "guard_layer": "WL_AnySurface",
     "recon": {
         "observer": {
             "items": [
@@ -27,13 +39,7 @@
                     "layer": "surface_and_air",
                     "channel": "sight",
                     "shape": "capsule",
-                    "radius": 100
-                },
-                {
-                    "layer": "underwater",
-                    "channel": "sight",
-                    "shape": "capsule",
-                    "radius": 100
+                    "radius": 75
                 }
             ]
         }
@@ -64,8 +70,20 @@
             "spec_id": "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_tool_weapon.json",
             "aim_bone": "bone_missile01",
             "muzzle_bone": "bone_missile01"
+        },
+        {
+            "spec_id": "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_tool_weapon_cruise.json",
+            "aim_bone": "bone_missile01",
+            "muzzle_bone": "bone_missile01"
+        },
+        {
+            "spec_id": "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_build_arm.json",
+            "aim_bone": "bone_root"
         }
     ],
+    "death_weapon": {
+        "ground_ammo_spec": "/pa/ammo/self_destruct/basic_unit.json"
+    },
     "events": {
         "build_complete": {
             "audio_cue": "/SE/Build_Complete/factory"
