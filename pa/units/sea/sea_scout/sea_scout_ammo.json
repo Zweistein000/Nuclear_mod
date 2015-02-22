@@ -3,6 +3,14 @@
   "model": {
     "filename": "/pa/units/sea/sea_scout/sea_scout.papa"
   },
+     "fx_trail": {
+        "filename": "/pa/units/air/missile_tactical/missile_tactical_trail.pfx",
+    "offset": [
+      0,
+      1,
+      0
+    ]
+  },
   "damage": 250,
   "splash_damage": 250,
   "splash_radius": 50,

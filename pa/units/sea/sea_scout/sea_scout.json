@@ -5,6 +5,12 @@
     "max_health": 175,
     "build_metal_cost": 150,
     "spawn_layers": "WL_WaterSurface",
+    "command_caps": [
+        "ORDER_Move",
+        "ORDER_Attack",
+        "ORDER_Assist",
+        "ORDER_Use"
+    ],
     "unit_types": [
         "UNITTYPE_Naval",
         "UNITTYPE_Scout",
@@ -44,8 +50,7 @@
         }
     },
     "model": {
-        "filename": "/pa/units/sea/sea_scout/sea_scout.papa",
-        "animtree": "/pa/anim/anim_trees/turret_anim_tree.json"
+        "filename": "/pa/units/sea/sea_scout/sea_scout2.papa"
     },
     "tools": [
         {

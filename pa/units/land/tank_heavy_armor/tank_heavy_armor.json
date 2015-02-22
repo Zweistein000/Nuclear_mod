@@ -19,6 +19,12 @@
             ]
         }
     },
+    "command_caps": [
+        "ORDER_Move",
+        "ORDER_Attack",
+        "ORDER_Assist",
+        "ORDER_Use"
+    ],
     "unit_types": [
         "UNITTYPE_Tank",
         "UNITTYPE_Heavy",

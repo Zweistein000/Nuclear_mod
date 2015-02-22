@@ -30,11 +30,5 @@
   "lifetime": 10,
   "turn_rate": 0,
   "full_damage_splash_radius": 1,
-  "audio_loop": "/SE/Movement/missile/artillery_long_missile_fly_loop",
-  "events": {
-    "died": {
-      "audio_cue": "/SE/Impacts/shell_artillery",
-      "effect_spec": "/pa/effects/specs/default_building_explosion.pfx"
-    }
-  }
+  "audio_loop": "/SE/Movement/missile/artillery_long_missile_fly_loop"
 }

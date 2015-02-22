@@ -1,5 +1,6 @@
 {
-  "base_spec": "/pa/tools/base_tool/base_turret.json",
+  "tool_type": "TOOL_Weapon",
+  "range_height": 45,
     "ammo_id": "/pa/units/sea/sea_scout/sea_scout_ammo.json",
   "rate_of_fire": 6,
   "idle_aim_delay": 5,
