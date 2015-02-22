@@ -3,7 +3,7 @@
     "display_name": "!LOC(units:orbital_and_deepspace_radar.message):Orbital and Deepspace Radar",
     "description": "!LOC(units:orbital_and_deepspace_radar_orbital_and_celestial_radar_telemetry.message):Orbital and deepspace radar- Orbital and Celestial radar telemetry.",
     "max_health": 750,
-    "build_metal_cost": 300,
+    "build_metal_cost": 30,
     "consumption": {
         "energy": 3
     },

@@ -2,17 +2,18 @@
     "base_spec": "/pa/units/land/base_structure/base_structure.json",
     "display_name": "!LOC(units:advanced_laser_defense_tower.message):Advanced Laser Defense Tower",
     "description": "!LOC(units:advanced_turret_equipped_with_direct_fire_anti_land_and_anti_ship_defenses.message):Advanced turret- Equipped with direct fire anti-land, and anti-ship defenses.",
-    "max_health": 4000,
-    "build_metal_cost": 900,
+    "max_health": 500,
+    "build_metal_cost": 15,
     "atrophy_rate": 15,
     "atrophy_cool_down": 15,
     "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
     "unit_types": [
         "UNITTYPE_Structure",
-        "UNITTYPE_Advanced",
+        "UNITTYPE_Basic",
         "UNITTYPE_Land",
         "UNITTYPE_SurfaceDefense",
         "UNITTYPE_Defense",
+		"UNITTYPE_FabBuild",
         "UNITTYPE_FabAdvBuild"
     ],
     "command_caps": [
@@ -26,13 +27,13 @@
                     "layer": "surface_and_air",
                     "channel": "sight",
                     "shape": "capsule",
-                    "radius": 130
+                    "radius": 150
                 },
                 {
                     "layer": "underwater",
                     "channel": "sight",
                     "shape": "capsule",
-                    "radius": 130
+                    "radius": 150
                 }
             ]
         }
