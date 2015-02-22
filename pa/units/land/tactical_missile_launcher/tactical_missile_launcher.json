@@ -64,11 +64,6 @@
             "spec_id": "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_tool_weapon.json",
             "aim_bone": "bone_missile01",
             "muzzle_bone": "bone_missile01"
-        },
-        {
-            "spec_id": "/pa/units/land/tactical_missile_launcher/tactical_missile_tool_antidrop.json",
-            "aim_bone": "bone_missile01",
-            "muzzle_bone": "bone_missile01"
         }
     ],
     "events": {
