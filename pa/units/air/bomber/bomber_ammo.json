@@ -24,6 +24,6 @@
     "burnable_remove_radius": 60
   },
   "armor_damage_map": {
-    "AT_Bomber": 0
+    "AT_Bomber": 0.20
   }
 }
