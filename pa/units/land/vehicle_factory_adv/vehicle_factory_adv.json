@@ -2,7 +2,7 @@
     "base_spec": "/pa/units/land/base_structure/base_structure.json",
     "display_name": "!LOC(units:advanced_vehicle_factory.message):Advanced Vehicle Factory",
     "description": "!LOC(units:advanced_manufacturing_builds_land_vehicles.message):Advanced manufacturing- Builds land vehicles.",
-    "max_health": 2500,
+    "max_health": 1000,
     "build_metal_cost": 50,
     "atrophy_rate": 80,
     "atrophy_cool_down": 15,

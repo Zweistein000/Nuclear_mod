@@ -3,7 +3,7 @@
     "display_name": "!LOC(units:boom.message):Boom",
     "description": "!LOC(units:bomb_bot_equipped_with_self_destruction_mechanism.message):Bomb bot- Equipped with Self Destruction mechanism.",
     "max_health": 10,
-    "build_metal_cost": 45,
+    "build_metal_cost": 5,
     "wreckage_health_frac": 0,
     "spawn_layers": "WL_LandHorizontal",
     "attachable": {
