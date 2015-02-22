@@ -55,8 +55,7 @@
     "tools": [
         {
             "spec_id": "/pa/units/sea/sea_scout/sea_scout_tool_weapon.json",
-            "aim_bone": "bone_turret",
-            "muzzle_bone": "socket_muzzle"
+            "aim_bone": "bone_root"
         }
     ],
     "events": {
