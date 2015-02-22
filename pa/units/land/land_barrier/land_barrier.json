@@ -47,7 +47,7 @@
                     "layer": "surface_and_air",
                     "channel": "sight",
                     "shape": "capsule",
-                    "radius": 1
+                    "radius": 25
                 }
             ]
         }
