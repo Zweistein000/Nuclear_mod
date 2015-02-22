@@ -1,6 +1,6 @@
 {
     "base_spec": "/pa/tools/base_missile_turret/base_missile_turret.json",
-    "ammo_id": "/pa/units/land/bot_tactical_missile/bot_tactical_missile_ammo.json",
+    "ammo_id": "/pa/units/sea/nuclear_sub/nuclear_sub_ammo.json",
     "ammo_source": "energy",
     "rate_of_fire": 1,
     "ammo_capacity": 600,
