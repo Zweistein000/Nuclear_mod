@@ -2,7 +2,7 @@
     "base_spec": "/pa/units/land/base_structure/base_structure.json",
     "display_name": "!LOC(units:air_factory.message):Air Factory",
     "description": "!LOC(units:basic_manufacturing_builds_air_units.message):Basic manufacturing- Builds air units.",
-    "max_health": 6000,
+    "max_health": 500,
     "build_metal_cost": 20,
     "atrophy_rate": 12,
     "atrophy_cool_down": 15,
