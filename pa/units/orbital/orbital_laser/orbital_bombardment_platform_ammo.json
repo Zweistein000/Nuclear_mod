@@ -21,7 +21,7 @@
   "lifetime": 20, 
   "max_velocity": 10000, 
   "model": {
-    "filename": "/pa/units/air/missile_anti_nuke/missile_anti_nuke.papa"
+        "filename": "/pa/units/air/missile_nuke/missile_nuke.papa"
   }, 
   "physics": {
     "add_to_spatial_db": false, 

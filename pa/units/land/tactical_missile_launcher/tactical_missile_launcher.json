@@ -17,7 +17,7 @@
         "UNITTYPE_Important"
     ],
     "buildable_projectiles": [
-        "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_ammo.json"
+        "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_ammo.json",
         "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_ammo_cruise.json"
     ],
     "factory": {
