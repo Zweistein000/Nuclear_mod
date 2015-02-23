@@ -3,7 +3,7 @@
   "ammo_source": "factory", 
   "auto_attack": false, 
   "auto_task_type": "none", 
-  "base_spec": "/pa/tools/large_missile/cruise.json",
+  "base_spec": "/pa/tools/large_missile/nuke_tac.json", 
   "firing_arc_pitch": 180, 
   "firing_arc_yaw": 180, 
   "lifetime": 60, 

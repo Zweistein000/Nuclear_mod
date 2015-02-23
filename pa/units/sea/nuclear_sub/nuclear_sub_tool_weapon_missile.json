@@ -1,24 +1,24 @@
 {
-    "tool_type": "TOOL_Weapon",
+  "base_spec": "/pa/tools/base_tool/base_turret.json",
     "ammo_id": "/pa/units/sea/nuclear_sub/nuclear_sub_ammo_missile.json",
-    "target_layers": [
-        "WL_LandHorizontal",
-        "WL_WaterSurface",
-        "WL_Air"
-    ],
     "ammo_source": "energy",
     "ammo_capacity": 3000,
     "ammo_demand": 25,
     "ammo_per_shot": 3000,
-    "max_range": 5000,
-    "yaw_rate": 360,
-    "pitch_rate": 360,
-    "yaw_range": 180,
-    "pitch_range": 90,
-    "firing_arc_yaw": 180,
-    "firing_arc_pitch": 180,
-    "rate_of_fire": 1,
-    "auto_attack": false,
-    "manual_fire": true,
-    "auto_task_type": "none"
+  "rate_of_fire": 1,
+  "max_range": 5000,
+  "yaw_rate": 0,
+  "pitch_rate": 0,
+  "yaw_range": 180,
+  "pitch_range": 180,
+  "firing_arc_yaw": 180,
+  "firing_arc_pitch": 180,
+  "manual_fire": true,
+  "auto_attack": false,
+  "auto_task_type": "none",
+  "lifetime": 0,
+  "target_layers": [
+    "WL_LandHorizontal",
+    "WL_WaterSurface"
+  ]
 }
