@@ -9,23 +9,23 @@
     "buildable_types": "Air & Mobile & FactoryBuild",
     "rolloff_dirs": [
         [
-            1,
             0,
-            0
-        ],
-        [
-            -1,
             0,
             0
         ],
         [
             0,
-            1,
+            0,
             0
         ],
         [
             0,
-            -1,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
             0
         ]
     ],
