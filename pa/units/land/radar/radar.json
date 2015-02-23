@@ -64,7 +64,7 @@
                     "layer": "underwater",
                     "channel": "radar",
                     "shape": "capsule",
-                    "radius": 600
+                    "radius": 200
                 }
             ]
         }
