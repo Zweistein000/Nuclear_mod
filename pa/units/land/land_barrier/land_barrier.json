@@ -1,7 +1,7 @@
 {
     "base_spec": "/pa/units/land/base_structure/base_structure.json",
-    "display_name": "!LOC(units:wall.message):Wall",
-    "description": "!LOC(units:basic_defense_no_weapon_high_health.message):Basic defense- No weapon, high health.",
+    "display_name": "Depleted Uranium Block",
+    "description": "Why Would You Make A Wall Of Depleted Uranium?",
     "max_health": 2500,
     "build_metal_cost": 5,
     "atrophy_rate": 0.416667,

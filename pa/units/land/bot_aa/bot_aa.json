@@ -1,7 +1,7 @@
 {
     "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
-    "display_name": "!LOC(units:stinger.message):Stinger",
-    "description": "!LOC(units:combat_bot_equipped_with_basic_anti_air_missiles.message):Combat bot- Equipped with basic anti-air missiles.",
+    "display_name": "Stinger",
+    "description": "Combat bot- Equipped with basic missiles.",
     "build_metal_cost": 5,
     "max_health": 100,
     "attachable": {

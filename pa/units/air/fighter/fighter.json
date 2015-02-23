@@ -3,7 +3,7 @@
     "display_name": "!LOC(units:hummingbird.message):Hummingbird",
     "description": "!LOC(units:fighter_equipped_with_basic_anti_air_missiles.message):Fighter- Equipped with basic anti-air missiles.",
     "max_health": 100,
-    "build_metal_cost": 2,
+    "build_metal_cost": 3,
     "unit_types": [
         "UNITTYPE_Fighter",
         "UNITTYPE_Air",
