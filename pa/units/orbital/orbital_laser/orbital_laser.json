@@ -26,7 +26,10 @@
     "died": {
       "audio_cue": "/SE/Death/orbital", 
       "effect_spec": "/pa/effects/specs/default_explosion.pfx"
-    }, 
+    },
+   "death_weapon": {
+        "ground_ammo_spec": "/pa/ammo/nuke_pbaoe/nuke_orbitalpbaoe.json"
+    },	
     "fired": {
       "audio_cue": "/SE/Weapons/orb/orb_ssx_laser_fire", 
       "effect_spec": "/pa/units/orbital_units/orbital_bombardment_platform/orbital_bombardment_platform_muzzle_flash.pfx socket_muzzle"
@@ -52,11 +55,11 @@
   }, 
   "navigation": {
     "aggressive_distance": 1, 
-    "acceleration": 5, 
+    "acceleration": 2, 
     "brake": 5, 
     "hover_time": -1.0, 
     "move_speed": 30, 
-    "turn_speed": 90, 
+    "turn_speed": 10, 
     "type": "orbital", 
     "vertical_speed": 1000
   }, 
