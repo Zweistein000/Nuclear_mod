@@ -12,9 +12,10 @@
     "show_in_orbital_layer": false,
     "unit_types": [
         "UNITTYPE_Structure",
-        "UNITTYPE_Advanced",
+        "UNITTYPE_Basic",
         "UNITTYPE_Defense",
         "UNITTYPE_OrbitalDefense",
+        "UNITTYPE_FabBuild",
         "UNITTYPE_FabAdvBuild"
     ],
     "command_caps": [
