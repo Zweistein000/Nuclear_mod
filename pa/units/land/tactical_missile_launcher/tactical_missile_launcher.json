@@ -19,14 +19,14 @@
     ],
     "buildable_projectiles": [
         "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_ammo.json",
-        "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_ammo_cruise.json"
+        "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_cruise_ammo.json"
     ],
     "factory": {
         "store_units": true,
         "spawn_points": [
             "bone_missile01"
         ],
-        "initial_build_spec": "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_ammo_cruise.json",
+        "initial_build_spec": "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_cruise_ammo.json",
         "default_build_stance": "Continuous"
     },
     "command_caps": [
@@ -72,7 +72,7 @@
             "aim_bone": "bone_root" 
         },
         {
-            "spec_id": "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_tool_weapon_cruise.json",
+            "spec_id": "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_cruise_tool_weapon.json",
             "aim_bone": "bone_root"
         },
         {

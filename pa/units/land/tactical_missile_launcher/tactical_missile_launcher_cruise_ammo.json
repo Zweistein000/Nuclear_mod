@@ -3,7 +3,7 @@
   "base_spec": "/pa/ammo/large_missile/nuke_tac.json", 
   "build_metal_cost": 5, 
   "burn_damage": 200, 
-  "burn_radius": 1, 
+  "burn_radius": 5, 
   "collision_check": "ground", 
   "cruise_height": 120,
   "damage": 100, 
@@ -14,7 +14,7 @@
     "radius_accel": 30, 
     "radius_velocity": 40
   }, 
-  "description": "Tactical cruise missile. Shot down bv flak.", 
+  "description": "Tactical cruise missile. Shot down by flak.", 
   "display_name": "Cruise missile", 
   "flight_type": "Staged", 
   "full_damage_splash_radius": 10, 
