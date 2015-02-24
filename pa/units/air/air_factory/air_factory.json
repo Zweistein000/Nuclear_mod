@@ -30,8 +30,8 @@
             0
         ]
     ],
-    "wait_to_rolloff_time": 2,
-    "factory_cooldown_time": 0,
+    "wait_to_rolloff_time": 1,
+    "factory_cooldown_time": 1,
     "unit_types": [
         "UNITTYPE_Factory",
         "UNITTYPE_Construction",
