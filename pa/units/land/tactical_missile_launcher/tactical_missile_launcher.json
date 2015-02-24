@@ -72,7 +72,7 @@
             "aim_bone": "bone_root" 
         },
         {
-            "spec_id": "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_tool_cruise.json",
+            "spec_id": "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_tool_weapon_cruise.json",
             "aim_bone": "bone_root"
         },
         {

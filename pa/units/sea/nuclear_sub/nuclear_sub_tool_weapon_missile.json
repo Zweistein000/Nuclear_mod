@@ -13,9 +13,6 @@
   "pitch_range": 180,
   "firing_arc_yaw": 180,
   "firing_arc_pitch": 180,
-  "manual_fire": true,
-  "auto_attack": false,
-  "auto_task_type": "none",
   "lifetime": 0,
   "target_layers": [
     "WL_LandHorizontal",
