@@ -19,6 +19,9 @@
             ]
         }
     },
+    "production": {
+        "metal": -10
+    },
     "unit_types": [
         "UNITTYPE_Tank",
         "UNITTYPE_Mobile",

@@ -3,9 +3,10 @@
     "display_name": "Bluehawk",
     "description": "Stealthy tactical missile nuke bot that. 5 Energy drain cost.",
     "build_metal_cost": 100,
-  "consumption": {
-    "energy": 5
-  },
+    "production": {
+        "metal": -1,
+        "energy": -5
+    },
   "energy_efficiency_requirement": 0.9,
     "max_health": 200,
     "attachable": {

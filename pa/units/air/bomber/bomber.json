@@ -12,6 +12,9 @@
         "UNITTYPE_Basic",
         "UNITTYPE_FactoryBuild"
     ],
+    "production": {
+        "metal": -1
+    },
     "guard_radius": 120,
     "armor_type": "AT_Bomber",
     "guard_layer": "WL_AnySurface",

@@ -9,7 +9,7 @@
     "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
     "area_build_type": "Sphere",
     "storage": {
-        "energy": 60
+        "energy": 100
     },
     "unit_types": [
         "UNITTYPE_Structure",
