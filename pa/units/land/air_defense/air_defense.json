@@ -1,19 +1,19 @@
 {
     "base_spec": "/pa/units/land/base_structure/base_structure.json",
-    "display_name": "Missile Turret",
-    "description": "Advanced turret- Fires High Damage Missiles at Single Targets.",
+    "display_name": "Tactical Nuke Turret",
+    "description": "Advanced Turret Equipped with Tactical Nuclear Missiles.",
     "max_health": 550,
-    "build_metal_cost": 30,
+    "build_metal_cost": 100,
     "atrophy_rate": 5,
     "atrophy_cool_down": 15,
     "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
     "area_build_separation": 18,
     "unit_types": [
         "UNITTYPE_Structure",
-        "UNITTYPE_Advanced",
+        "UNITTYPE_Basic",
         "UNITTYPE_Land",
-        "UNITTYPE_Defense",
         "UNITTYPE_SurfaceDefense",
+        "UNITTYPE_Defense",
         "UNITTYPE_FabAdvBuild",
         "UNITTYPE_CombatFabAdvBuild"
     ],
@@ -34,7 +34,7 @@
                     "layer": "underwater",
                     "channel": "sight",
                     "shape": "capsule",
-                    "radius": 50
+                    "radius": 155
                 }
             ]
         }
@@ -68,7 +68,7 @@
             "audio_cue": "/SE/Build_Complete/structure_small"
         },
         "fired": {
-            "audio_cue": "/SE/Weapons/bot/bot_tactical_missile_fire",
+            "audio_cue": "/SE/Weapons/structure/air_defense_fire",
             "effect_spec": "/pa/effects/specs/default_muzzle_flash.pfx socket_rightMuzzle /pa/effects/specs/default_muzzle_flash.pfx socket_leftMuzzle"
         },
         "died": {
