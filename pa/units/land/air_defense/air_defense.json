@@ -28,7 +28,7 @@
                     "layer": "surface_and_air",
                     "channel": "sight",
                     "shape": "capsule",
-                    "radius": 155
+                    "radius": 150
                 },
                 {
                     "layer": "underwater",
@@ -56,6 +56,14 @@
     "tools": [
         {
             "spec_id": "/pa/units/land/air_defense/air_defense_tool_weapon.json",
+            "aim_bone": "bone_pitch",
+            "muzzle_bone": [
+                "socket_rightMuzzle",
+                "socket_leftMuzzle"
+            ]
+        },
+        {
+            "spec_id": "/pa/units/land/air_defense/air_defense_torpedo_tool_weapon.json",
             "aim_bone": "bone_pitch",
             "muzzle_bone": [
                 "socket_rightMuzzle",

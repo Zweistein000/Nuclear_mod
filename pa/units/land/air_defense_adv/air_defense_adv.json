@@ -56,7 +56,17 @@
                 "socket_rightMuzzle02",
                 "socket_leftMuzzle02"
             ]
-        }
+        },
+		{
+            "spec_id": "/pa/units/land/air_defense_adv/air_defense_flak_antimissile_tool_weapon.json",
+            "aim_bone": "bone_pitch",
+            "muzzle_bone": [
+                "socket_rightMuzzle01",
+                "socket_leftMuzzle01",
+                "socket_rightMuzzle02",
+                "socket_leftMuzzle02"
+            ]
+		}
     ],
     "events": {
         "build_complete": {

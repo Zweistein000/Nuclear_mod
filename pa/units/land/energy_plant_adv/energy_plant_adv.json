@@ -31,7 +31,7 @@
         }
     },
     "death_weapon": {
-        "ground_ammo_spec": "/pa/ammo/self_destruct/Sub_death.json"
+        "ground_ammo_spec": "/pa/ammo/self_destruct/adv_pgen.json"
     },
     "model": [
         {

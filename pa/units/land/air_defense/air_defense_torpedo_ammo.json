@@ -1,0 +1,13 @@
+{
+  "base_spec": "/pa/ammo/torpedo/super_c.json",
+  "damage": 250,
+  "splash_damage": 250,
+  "splash_radius": 50,
+  "splash_damages_allies": true,
+  "full_damage_splash_radius": 10,
+  "sim_impact_effect":"/pa/effects/large_missile/nuke_tac_ent.json",
+  "initial_velocity": 5,
+  "max_velocity": 35,
+  "lifetime": 5,
+  "turn_rate": 360
+}

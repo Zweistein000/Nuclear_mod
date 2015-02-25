@@ -13,10 +13,8 @@
   "manual_fire": true,
   "auto_task_type": "anti_entity",
   "anti_entity_targets": [
-    "/pa/units/land_combat/tactical_missile_launcher/tactical_missile_launcher_ammo.json",
-    "/pa/units/surfacenaval_units/missile_ship/missile_ship_ammo.json",
-    "/pa/units/land_bots/bot_tactical_missile/bot_tactical_missile_ammo.json",
-    "/pa/units/land_econ/unit_cannon/unit_cannon_deploy.json"
+    "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_cruise_ammo.json",
+    "/pa/units/land/air_defense/air_defense_ammo.json"
   ],
   "target_layers": [
     "WL_Air"

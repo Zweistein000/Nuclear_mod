@@ -76,7 +76,7 @@
     "nearby_target_tick_update_interval": 3,
     "tools": [
         {
-            "spec_id": "/pa/units/land/bot_aa/bot_aa_tool_weapon.json",
+            "spec_id": "/pa/units/land/bot_missile/bot_aa_tool_weapon.json",
             "aim_bone": "bone_turret",
             "muzzle_bone": [
                 "socket_rightMuzzle",
@@ -84,7 +84,7 @@
             ]
         },
         {
-            "spec_id": "/pa/units/land/bot_aa/bot_aa_tool_weapon_torpedo.json",
+            "spec_id": "/pa/units/land/bot_missile/bot_aa_tool_weapon_torpedo.json",
             "aim_bone": "bone_turret",
             "muzzle_bone": [
                 "socket_rightMuzzle",
