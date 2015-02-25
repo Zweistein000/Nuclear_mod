@@ -63,6 +63,12 @@
                     "channel": "sight",
                     "shape": "capsule",
                     "radius": 100
+                },
+                {
+                    "layer": "mine",
+                    "channel": "sight",
+                    "shape": "capsule",
+                    "radius": 50
                 }
             ]
         }

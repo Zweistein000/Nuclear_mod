@@ -61,6 +61,9 @@
       "muzzle_bone": "bone_root"
     }
   ],
+    "death_weapon": {
+        "ground_ammo_spec": "/pa/ammo/self_destruct/nuke_air.json"
+    },
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/air"

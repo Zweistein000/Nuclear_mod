@@ -94,6 +94,9 @@
       "spec_id": "/pa/units/orbital/orbital_laser/orbital_bombardment_platform_tool_weapon.json"
     }
   ], 
+     "death_weapon": {
+        "ground_ammo_spec": "/pa/ammo/self_destruct/nuke_orbital.json"
+    },
   "unit_types": [
     "UNITTYPE_Mobile", 
     "UNITTYPE_Orbital", 
