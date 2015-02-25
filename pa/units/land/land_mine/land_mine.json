@@ -1,9 +1,9 @@
 {
     "display_name": "Nuke Mine",
-    "description": "!Nuke mine- Detonates when enemy units are in proximity With a Tactical Nuke.",
+    "description": "Nuke mine- Detonates when enemy units are in proximity With a Tactical Nuke.",
     "strategic_icon_priority": 3,
     "max_health": 5,
-    "build_metal_cost": 1,
+    "build_metal_cost": 2,
     "wreckage_health_frac": 0,
     "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
     "area_build_type": "Sphere",
@@ -12,8 +12,8 @@
         "UNITTYPE_Basic",
         "UNITTYPE_Land",
         "UNITTYPE_Defense",
-        "UNITTYPE_CombatFabBuild",
-        "UNITTYPE_CombatFabAdvBuild"
+        "UNITTYPE_FabBuild",
+        "UNITTYPE_FabAdvBuild"
     ],
     "physics": {
         "type": "Structure",

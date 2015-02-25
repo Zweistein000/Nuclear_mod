@@ -159,7 +159,7 @@
         "handler_type": "inert"
     },
     "teleporter": {
-        "energy_demand": 1000
+        "energy_demand": 10
     },
     "useable": {
         "type": "teleporter",
