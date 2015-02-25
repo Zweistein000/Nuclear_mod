@@ -69,9 +69,6 @@
         }
     },
     "audio_loop": "/SE/Movement/missile/nuke_missile_fly_loop",
-    "armor_damage_map": {
-        "AT_Commander": 0.33
-    },
     "stage_on_planet_handoff": 2,
     "stages": [
         {
