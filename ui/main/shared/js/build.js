@@ -73,7 +73,7 @@ function BuildHotkeyModel() {
             "/pa/units/sea/sea_scout/sea_scout.json": ["sea", 12],
             
 
-            "/pa/units/land/land_mine/land_mine.json": ["combat", 15],
+            "/pa/units/land/land_mine/land_mine.json": ["combat", 1],
 			
             "/pa/units/land/anti_nuke_launcher/anti_nuke_launcher_ammo.json": ["antiammo", 13],
 			

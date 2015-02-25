@@ -13,6 +13,7 @@
         "UNITTYPE_Land",
         "UNITTYPE_Defense",
         "UNITTYPE_FabBuild",
+        "UNITTYPE_CmdBuild",
         "UNITTYPE_FabAdvBuild"
     ],
     "armor_type": "AT_Mine",
