@@ -17,5 +17,8 @@
     "radius_accel": 0,
     "delay": 0,
     "burnable_remove_radius": 60
+  },
+  "armor_damage_map": {
+    "AT_Mine": 0.00
   }
 }

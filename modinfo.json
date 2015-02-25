@@ -1,11 +1,11 @@
 {
     "enabled": true,
     "context": "server",
-    "identifier": "com.pa.nukemod",
-    "display_name": "Nuclear_mod",
+    "identifier": "com.pa.judgmentday",
+    "display_name": "Judgment Day",
     "build": "78071",
     "date": "2015/2/20",
-    "description": "Derp mod: Simple mod that overuses the term nuke",
+    "description": "Fallout all over again.",
     "category": [
         "in-game",
         "server-mod"

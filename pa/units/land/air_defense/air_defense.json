@@ -10,7 +10,7 @@
     "area_build_separation": 18,
     "unit_types": [
         "UNITTYPE_Structure",
-        "UNITTYPE_Advanced",
+        "UNITTYPE_Basic",
         "UNITTYPE_Land",
         "UNITTYPE_Defense",
         "UNITTYPE_SurfaceDefense",

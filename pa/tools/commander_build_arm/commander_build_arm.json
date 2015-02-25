@@ -1,10 +1,11 @@
 {
     "tool_type": "TOOL_BuildArm",
-    "max_range": 20,
+    "max_range": 50,
     "construction_demand": {
         "energy": 5,
         "metal": 5
     },
+	"auto_repair":true,
     "yaw_rate": 90,
     "pitch_rate": 90,
     "yaw_range": 180,
