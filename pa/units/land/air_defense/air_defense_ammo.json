@@ -15,7 +15,7 @@
     "events": {
         "died": {
             "audio_cue": "/SE/Impacts/missile_nuke",
-            "effect_spec": "/pa/effects/large_missile/nuke_strat_explosion.pfx"
+            "effect_spec": "/pa/effects/large_missile/nuke_tac_explosion.pfx"
         }
     }
 }
