@@ -1,19 +1,19 @@
 {
-    "display_name": "SATON Missile",
-    "description": "Supremely Advanced Totally Overpowered Nuclear missile. Made in hell.",
+    "display_name": "!LOC(units:lr_96_pacifier_missile.message):LR-96 -Pacifier- Missile",
+    "description": "!LOC(units:nuclear_missile_long_range_large_area_damage_projectile.message):Nuclear missile - Long range, large area damage, projectile",
     "has_notifications": true,
     "ammo_type": "Projectile",
-    "build_metal_cost": 3000,
+    "build_metal_cost": 600,
     "flight_type": "Staged",
-    "damage": 5000,
-    "splash_damage": 5000,
-    "splash_radius": 350,
-    "full_damage_splash_radius": 200,
+    "damage": 600,
+    "splash_damage": 600,
+    "splash_radius": 150,
+    "full_damage_splash_radius": 150,
     "splash_damages_allies": true,
-    "cruise_height": 200,
-    "initial_velocity": 5,
-    "max_velocity": 50,
-    "turn_rate": 90,
+    "cruise_height": 100,
+    "initial_velocity": 40,
+    "max_velocity": 75,
+    "turn_rate": 180,
     "lifetime": 0,
     "show_strategic_icon": true,
     "interplanetary_type": "INTER_System",
@@ -23,36 +23,22 @@
     "show_in_orbital_layer": true,
     "splash_damage_orbital": true,
     "enable_orbital_shell": true,
-    "burn_damage": 500,
-    "burn_radius": 500,
+    "burn_damage": 200,
+    "burn_radius": 137,
     "influence_radius": 3200,
-	"events" : {
-		"collided" : {
-			"audio_cue" : "/SE/Impacts/missile_seeking",
-			"effect_spec" : "/pa/effects/specs/meteor_impact_explosion.pfx",
-			"effect_world_aligned" : false
-		},
-		"died" : {
-			"audio_cue" : "/SE/Impacts/missile_seeking",
-			"effect_spec" : "/pa/effects/specs/default_commander_explosion_ent.pfx",
-			"effect_world_aligned" : false
-		}
-	},
-	"sim_impact_effect": "/pa/effects/specs/meteor_impact_explosion_ent.json",
-	"crater_radius": 100,
-	"crater_scale": 100,
+    "sim_impact_effect": "/pa/units/land/nuke_launcher/nuke_launcher_ammo_explosion_ent.json",
     "impact_decals": [
         "/pa/effects/specs/nuke_scorch_01.json"
     ],
     "damage_volume": {
-        "initial_radius": 100,
+        "initial_radius": 20,
         "radius_velocity": 200,
         "radius_accel": -40,
         "delay": 1.5,
-        "burnable_remove_radius": 200
+        "burnable_remove_radius": 100
     },
     "model": {
-        "filename": "/pa/units/air/missile_orbital/missile_orbital.papa"
+        "filename": "/pa/units/air/missile_nuke/missile_nuke.papa"
     },
     "unit_types": [
         "UNITTYPE_Mobile",
@@ -71,7 +57,7 @@
         "filename": "/pa/units/air/missile_nuke/missile_nuke_trail.pfx",
         "offset": [
             0,
-            16.8,
+            12,
             0
         ]
     },

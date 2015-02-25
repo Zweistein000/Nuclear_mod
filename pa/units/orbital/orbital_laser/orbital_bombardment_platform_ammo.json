@@ -32,5 +32,6 @@
   }, 
   "spawn_layers": "orbital", 
   "splash_damage": 500, 
-  "splash_radius": 150
+  "splash_radius": 150,
+  "full_damage_splash_radius": 100
 }

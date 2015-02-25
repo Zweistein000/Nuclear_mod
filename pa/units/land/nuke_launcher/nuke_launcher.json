@@ -2,20 +2,21 @@
     "base_spec": "/pa/units/land/base_structure/base_structure.json",
     "display_name": "!LOC(units:nuclear_missile_launcher.message):Nuclear Missile Launcher",
     "description": "!LOC(units:nuclear_missile_launcher_equipped_with_advanced_long_range_large_area_damage_nuclear_missile.message):Nuclear missile launcher- Equipped with advanced long range, large area damage, nuclear missile.",
-    "max_health": 750,
-    "build_metal_cost": 750,
+    "max_health": 500,
+    "build_metal_cost": 90,
     "atrophy_rate": 240,
     "atrophy_cool_down": 15,
     "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
     "buildable_projectiles": [
-        "/pa/units/land/nuke_launcher/nuke_launcher_ammo.json"
+        "/pa/units/land/nuke_launcher/nuke_launcher_ammo.json",
+        "/pa/units/land/nuke_launcher/nuke_launcher_base_ammo.json"
     ],
     "factory": {
         "store_units": true,
         "spawn_points": [
             "bone_missile01"
         ],
-        "initial_build_spec": "/pa/units/land/nuke_launcher/nuke_launcher_ammo.json",
+        "initial_build_spec": "/pa/units/land/nuke_launcher/nuke_launcher_base_ammo.json",
         "default_build_stance": "Continuous"
     },
     "unit_types": [
@@ -39,7 +40,7 @@
                     "layer": "surface_and_air",
                     "channel": "sight",
                     "shape": "capsule",
-                    "radius": 100
+                    "radius": 75
                 }
             ]
         }
@@ -79,10 +80,17 @@
             "aim_bone": "bone_root"
         },
         {
+            "spec_id": "/pa/units/land/nuke_launcher/nuke_launcher_base_tool_weapon.json",
+            "aim_bone": "bone_root"
+        },
+        {
             "spec_id": "/pa/units/land/nuke_launcher/nuke_launcher_build_arm.json",
             "aim_bone": "bone_root"
         }
     ],
+    "death_weapon": {
+        "ground_ammo_spec": "/pa/ammo/self_destruct/Sub_death.json"
+    },
     "events": {
         "build_complete": {
             "audio_cue": "/SE/Build_Complete/factory"

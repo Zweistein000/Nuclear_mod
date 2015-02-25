@@ -91,7 +91,7 @@
     {
       "aim_bone": "bone_recoil", 
       "muzzle_bone": "socket_muzzle", 
-      "spec_id": "/pa/units/orbital/orbital_laset/orbital_bombardment_platform_tool_weapon.json"
+      "spec_id": "/pa/units/orbital/orbital_laser/orbital_bombardment_platform_tool_weapon.json"
     }
   ], 
   "unit_types": [
