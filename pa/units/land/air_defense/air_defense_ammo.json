@@ -7,6 +7,8 @@
     "splash_damages_allies": false,
     "initial_velocity": 150,
     "lifetime": 30,
+    "burn_damage": 200,
+    "burn_radius": 80,
 	"impact_decals": [
       "/pa/effects/large_missile/nuke_tac_scorch.json"
     ], 
