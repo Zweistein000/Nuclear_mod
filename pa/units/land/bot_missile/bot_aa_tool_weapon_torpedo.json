@@ -3,7 +3,7 @@
     "ammo_id": [
         {
             "layer": "WL_UnderWater",
-            "/pa/units/land/bot_aa/bot_aa_ammo_torpedo.json"
+            "/pa/units/land/bot_missile/bot_aa_ammo_torpedo.json"
         }
     ],
     "rate_of_fire": 0.5,
