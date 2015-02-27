@@ -34,8 +34,6 @@
 		}
 	},
 	"sim_impact_effect": "/pa/effects/specs/meteor_impact_explosion_ent.json",
-	"crater_radius": 200,
-	"crater_scale": 100,
     "impact_decals": [
         "/pa/effects/specs/nuke_scorch_01.json"
     ],
@@ -47,7 +45,7 @@
         "burnable_remove_radius": 200
     },
     "model": {
-        "filename": "/pa/units/air/missile_orbital/missile_orbital.papa"
+        "filename": "/pa/units/air/missile_orbital_booster/missile_orbital_booster.papa"
     },
     "unit_types": [
         "UNITTYPE_Mobile",
@@ -66,7 +64,7 @@
         "filename": "/pa/units/air/missile_nuke/missile_nuke_trail.pfx",
         "offset": [
             0,
-            16.8,
+            13.8,
             0
         ]
     },
