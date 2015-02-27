@@ -4,8 +4,8 @@
     "description": "!LOC(units:advanced_artillery_equipped_with_long_range_anti_land_and_anti_ship_gun.message):Advanced artillery- Equipped with long range anti-land, and anti-ship gun.",
     "max_health": 800,
     "build_metal_cost": 60,
-    "atrophy_rate": 240,
-    "atrophy_cool_down": 15,
+    "atrophy_rate": 5,
+    "atrophy_cool_down": 30,
     "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
     "unit_types": [
         "UNITTYPE_Land",
