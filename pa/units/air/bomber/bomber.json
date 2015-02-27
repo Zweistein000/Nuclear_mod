@@ -75,9 +75,6 @@
             "effect_scale": 0.75
         }
     },
-    "death_weapon": {
-        "ground_ammo_spec": "/pa/ammo/self_destruct/nuke_air.json"
-    },
     "fx_offsets": [
         {
             "type": "moving_forward",
