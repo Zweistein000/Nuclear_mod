@@ -2,7 +2,7 @@
     "base_spec": "/pa/tools/base_torpedo_turret/base_torpedo_turret.json",
     "ammo_id": [
         {
-            "layer": "WL_UnderWater",
+            "layer": "WL_Seafloor",
             "/pa/units/land/bot_missile/bot_aa_ammo_torpedo.json"
         }
     ],
