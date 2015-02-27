@@ -7,7 +7,7 @@
     "wreckage_health_frac": 0,
     "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
     "area_build_type": "Sphere",
-    "area_build_separation": 1,
+    "area_build_separation": 5,
     "unit_types": [
         "UNITTYPE_Basic",
         "UNITTYPE_Land",

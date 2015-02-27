@@ -27,7 +27,7 @@
     "audio_loop": "/SE/Movement/missile/artillery_long_missile_fly_loop",
     "events": {
         "died": {
-            "audio_cue": "/SE/Impacts/missile_artillery_long_holkins",
+            "audio_cue": "/SE/Impacts/missile_nuke",
             "effect_spec": "/pa/effects/large_missile/nuke_tac_explosion.pfx"
         }
     }

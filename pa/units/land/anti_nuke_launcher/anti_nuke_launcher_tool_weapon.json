@@ -17,7 +17,7 @@
     "auto_task_type": "anti_entity",
     "anti_entity_targets": [
         "/pa/units/land/nuke_launcher/nuke_launcher_ammo.json",
-		"/pa/units/land/nuke_launcher/nuke_launcher_SATON_ammo.json",
+		"/pa/units/land/nuke_launcher/nuke_launcher_base_ammo.json",
 		"/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_ammo.json",
 		"/pa/units/land/bot_tactical_missile/bot_tactical_missile_ammo.json",
 		"/pa/units/sea/nuclear_sub/nuclear_sub_ammo_missile.json",
