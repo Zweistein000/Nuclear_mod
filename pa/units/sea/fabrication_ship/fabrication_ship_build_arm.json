@@ -4,7 +4,7 @@
         "energy": 1,
         "metal": 1
     },
-    "max_range":40
+    "max_range":40,
 	"auto_repair":true,
     "yaw_rate": 180,
     "pitch_rate": 180
