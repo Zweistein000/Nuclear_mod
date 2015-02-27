@@ -87,7 +87,7 @@
       ]
     }
   }, 
-  "spawn_layers": "WL_LandHorizontal", 
+    "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
   "tools": [
     {
       "aim_bone": "bone_recoil", 
