@@ -1,7 +1,7 @@
 {
     "base_spec": "/pa/tools/base_artillery_turret/base_artillery_turret.json",
     "ammo_id": "/pa/units/land/air_defense/air_defense_ammo.json",
-    "rate_of_fire": 0.2,
+    "rate_of_fire": 0.75,
     "max_firing_velocity": 150,
     "min_firing_velocity": 100,
     "ammo_source": "energy",
