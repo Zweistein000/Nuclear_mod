@@ -19,6 +19,7 @@
   ], 
   "description": "Orbital nuclear bombardment.", 
   "display_name": "SXX-NUK3", 
+     "armor_type": "AT_Orbital",
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/orbital"
