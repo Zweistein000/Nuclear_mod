@@ -30,6 +30,7 @@
         "shape": "sphere",
         "radius": 3,
         "push_class": 2
+		"allow_pushing": false
     },
     "recon": {
         "observer": {
