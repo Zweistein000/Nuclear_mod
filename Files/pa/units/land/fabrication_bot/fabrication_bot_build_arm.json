@@ -4,7 +4,7 @@
     "pitch_rate": 180,
 	"auto_repair":true,
     "construction_demand": {
-        "energy": 1,
+        "energy": 5,
         "metal": 1
     }
 }
