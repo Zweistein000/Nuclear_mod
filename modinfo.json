@@ -4,16 +4,16 @@
     "identifier": "com.pa.judgmentday",
     "display_name": "Judgment Day",
     "build": "78071",
-    "date": "2015/2/20",
-    "description": "Fallout all over again.",
+    "date": "2015/2/28",
+    "description": "Fallout all over again. This is a single planet server mod where the word nuke is so overused it's not even a clishé anymore. The mod is currently in alpha.",
     "category": [
         "in-game",
         "server-mod"
     ],
     "author": "BananaManAlucard, Zweistein",
-    "version": "Alpha",
+    "version": "Alpha initial release",
     "signature": "(not yet implemented)",
-    "forum": "",
-    "icon": "",
+    "forum": "https://forums.uberent.com/threads/wip-judgment-day-server-mod.68122/",
+    "icon": "https://farm8.staticflickr.com/7454/13126809294_eec76e7626_o.gif",
     "priority": 100
 }
