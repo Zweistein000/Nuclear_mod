@@ -44,7 +44,7 @@
     },
     "guard_layer": "WL_LandHorizontal",
     "navigation": {
-        "type": "land-small",
+        "type": "amphibious",
         "acceleration": 120,
         "brake": 120,
         "move_speed": 15,
