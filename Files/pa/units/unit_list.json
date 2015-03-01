@@ -4,7 +4,7 @@
         "/pa/units/air/air_factory/air_factory.json",
         "/pa/units/air/air_factory_adv/air_factory_adv.json",
         "/pa/units/air/base_flyer/base_flyer.json",
-        "/pa/units/air/bomber/bomber.json",
+        "/pa/units/air/gunship/gunship.json",
         "/pa/units/air/bomber_adv/bomber_adv.json",
         "/pa/units/air/fabrication_aircraft/fabrication_aircraft.json",  
         "/pa/units/air/fabrication_aircraft_adv/fabrication_aircraft_adv.json",
