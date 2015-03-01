@@ -12,16 +12,17 @@
         "UNITTYPE_Basic",
         "UNITTYPE_FactoryBuild"
     ],
-    "guard_layer": "WL_Air",
-    "navigation": {
-        "type": "air",
-        "acceleration": 180,
-        "brake": 45,
-        "move_speed": 90,
-        "turn_speed": 75,
-        "aggressive_distance": 50,
-        "bank_factor": 10
-    },
+  "guard_radius": 200,
+  "guard_layer": "WL_Air",
+  "navigation": {
+    "type": "air",
+    "acceleration": 180,
+    "brake": 45,
+    "move_speed": 90,
+    "turn_speed": 75,
+    "aggressive_distance": 40,
+    "bank_factor": 10
+  },
     "physics": {
         "radius": 6,
         "gravity_scalar": 1,
