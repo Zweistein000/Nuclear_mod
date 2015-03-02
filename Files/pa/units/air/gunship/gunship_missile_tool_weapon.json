@@ -10,7 +10,7 @@
     "firing_arc_yaw": 25,
     "firing_arc_pitch": 50,
     "auto_attack": true,
-  "spread_fire": true,
+    "spread_fire": true,
     "target_layers": [
         "WL_LandHorizontal",
         "WL_WaterSurface"
