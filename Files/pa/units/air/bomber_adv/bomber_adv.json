@@ -12,7 +12,8 @@
     "UNITTYPE_FactoryBuild"
   ],
     "production": {
-        "metal": -10
+        "metal": -5
+		"energy": -75
     },
   "guard_radius": 100,
   "armor_type": "AT_Bomber",

@@ -5,7 +5,7 @@
     "build_metal_cost": 100,
     "production": {
         "metal": -1,
-        "energy": -5
+        "energy": -10
     },
   "energy_efficiency_requirement": 0.9,
     "max_health": 200,
