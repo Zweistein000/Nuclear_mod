@@ -3,7 +3,7 @@
     "display_name": "!LOC(units:air_factory.message):Air Factory",
     "description": "!LOC(units:basic_manufacturing_builds_air_units.message):Basic manufacturing- Builds air units.",
     "max_health": 500,
-    "build_metal_cost": 20,
+    "build_metal_cost": 200,
     "atrophy_rate": 12,
     "atrophy_cool_down": 15,
     "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",

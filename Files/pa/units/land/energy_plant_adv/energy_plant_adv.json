@@ -3,13 +3,13 @@
     "display_name": "Fusion Energy Plant",
     "description": "Produces insane amounts of energy. Expect meltdowns.",
     "max_health": 250,
-    "build_metal_cost": 30,
+    "build_metal_cost": 300,
     "atrophy_rate": 45,
     "atrophy_cool_down": 15,
     "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
     "area_build_type": "Line",
     "production": {
-        "energy": 50
+        "energy": 500
     },
     "unit_types": [
         "UNITTYPE_Structure",

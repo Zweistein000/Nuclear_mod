@@ -2,10 +2,10 @@
     "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
     "display_name": "Bluehawk",
     "description": "Stealthy tactical missile nuke bot that. 5 Energy drain cost.",
-    "build_metal_cost": 100,
+    "build_metal_cost": 1000,
     "production": {
         "metal": -1,
-        "energy": -10
+        "energy": -50
     },
   "energy_efficiency_requirement": 0.9,
     "max_health": 200,

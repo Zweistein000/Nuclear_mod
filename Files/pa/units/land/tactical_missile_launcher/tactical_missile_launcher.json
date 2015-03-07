@@ -3,7 +3,7 @@
     "display_name": "Tactical Missile Launcher",
     "description": "Launches tactical missiles. Nuclear or otherwise. Manual attack.",
     "max_health": 500,
-    "build_metal_cost": 30,
+    "build_metal_cost": 300,
     "atrophy_rate": 30,
     "atrophy_cool_down": 15,
     "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",

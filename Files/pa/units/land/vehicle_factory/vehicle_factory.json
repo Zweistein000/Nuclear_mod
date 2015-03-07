@@ -3,7 +3,7 @@
     "display_name": "!LOC(units:vehicle_factory.message):Vehicle Factory",
     "description": "!LOC(units:basic_manufacturing_builds_land_vehicles.message):Basic manufacturing- Builds land vehicles.",
     "max_health": 500,
-    "build_metal_cost": 20,
+    "build_metal_cost": 200,
     "atrophy_rate": 10,
     "atrophy_cool_down": 15,
     "buildable_types": "(Land & Mobile & Tank & Basic | Tank & Fabber & Basic & Mobile) & FactoryBuild",

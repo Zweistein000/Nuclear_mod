@@ -3,7 +3,7 @@
     "display_name": "Missile Turret",
     "description": "Advanced turret- Fires High Damage Missiles at Single Targets.",
     "max_health": 500,
-    "build_metal_cost": 30,
+    "build_metal_cost": 300,
     "atrophy_rate": 5,
     "atrophy_cool_down": 15,
     "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",

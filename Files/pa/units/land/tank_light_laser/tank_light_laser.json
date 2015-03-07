@@ -3,7 +3,7 @@
     "display_name": "!LOC(units:bolo.message):Bolo",
     "description": "!LOC(units:light_tank_equipped_with_basic_anti_land_and_anti_ship_guns.message):Light tank- Equipped with basic anti-land and anti-ship guns.",
     "max_health": 300,
-    "build_metal_cost": 2,
+    "build_metal_cost": 20,
     "attachable": {
         "offsets": {
             "root": [

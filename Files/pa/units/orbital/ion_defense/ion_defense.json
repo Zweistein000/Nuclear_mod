@@ -3,7 +3,7 @@
     "display_name": "!LOC(units:umbrella.message):Umbrella",
     "description": "!LOC(units:ion_defense_platform_designed_to_take_out_orbital_units_above_it.message):Ion defense platform- Designed to take out orbital units above it.",
     "max_health": 500,
-    "build_metal_cost": 15,
+    "build_metal_cost": 150,
     "atrophy_rate": 29.16667,
     "atrophy_cool_down": 15,
     "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",

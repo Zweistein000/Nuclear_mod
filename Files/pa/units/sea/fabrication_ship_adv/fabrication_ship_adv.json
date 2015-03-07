@@ -3,7 +3,7 @@
     "display_name": "!LOC(units:advanced_fabrication_ship.message):Advanced Fabrication Ship",
     "description": "!LOC(units:advanced_fabricator_wired_to_build_naval_structures.message):Advanced fabricator- Wired to build naval structures.",
     "max_health": 250,
-    "build_metal_cost": 20,
+    "build_metal_cost": 200,
     "spawn_layers": "WL_WaterSurface",
     "attachable": {
         "offsets": {

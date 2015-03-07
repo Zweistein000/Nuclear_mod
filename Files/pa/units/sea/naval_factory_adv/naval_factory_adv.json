@@ -3,7 +3,7 @@
     "display_name": "!LOC(units:advanced_naval_factory.message):Advanced Naval Factory",
     "description": "!LOC(units:advanced_manufacturing_builds_naval_units.message):Advanced manufacturing- Builds naval units.",
     "max_health": 1000,
-    "build_metal_cost": 50,
+    "build_metal_cost": 500,
     "atrophy_rate": 80,
     "atrophy_cool_down": 15,
     "spawn_layers": "WL_DeepWater",

@@ -3,7 +3,7 @@
     "description": "!LOC(units:anti_nuke_intercepts_incoming_nuclear_missiles.message):Anti-nuke - Intercepts incoming nuclear missiles.",
     "has_notifications": true,
     "ammo_type": "Projectile",
-    "build_metal_cost": 10,
+    "build_metal_cost": 100,
     "flight_type": "Staged",
     "damage": 1,
     "splash_damage": 1,

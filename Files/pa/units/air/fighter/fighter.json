@@ -3,7 +3,7 @@
     "display_name": "!LOC(units:hummingbird.message):Hummingbird",
     "description": "Multi purpose fighter-bomber with nuclear payload.",
     "max_health": 100,
-    "build_metal_cost": 10,
+    "build_metal_cost": 100,
     "unit_types": [
         "UNITTYPE_Bomber",
         "UNITTYPE_Fighter",

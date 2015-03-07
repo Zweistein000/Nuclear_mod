@@ -3,7 +3,7 @@
     "display_name": "Sea quake",
     "description": "A torpedo boat with nuclear payload.",
     "max_health": 250,
-    "build_metal_cost": 7,
+    "build_metal_cost": 70,
     "spawn_layers": "WL_WaterSurface",
    "guard_layer": "WL_WaterSurface",
    "armor_type": "AT_Suicide",

@@ -3,7 +3,7 @@
     "display_name": "!LOC(units:narwhal.message):Narwhal",
     "description": "!LOC(units:frigate_basic_anti_air_missiles_and_anti_ship_guns.message):Frigate- Basic anti-air missiles and anti-ship guns.",
     "max_health": 500,
-    "build_metal_cost": 5,
+    "build_metal_cost": 50,
     "spawn_layers": "WL_WaterSurface",
     "mesh_bounds": [
         6,

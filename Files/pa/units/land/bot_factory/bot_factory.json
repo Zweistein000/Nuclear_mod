@@ -3,7 +3,7 @@
     "display_name": "!LOC(units:bot_factory.message):Bot Factory",
     "description": "!LOC(units:basic_manufacturing_builds_bots.message):Basic manufacturing- Builds bots.",
     "max_health": 500,
-    "build_metal_cost": 20,
+    "build_metal_cost": 200,
     "atrophy_rate": 10,
     "atrophy_cool_down": 15,
     "buildable_types": "Bot & Mobile & Basic & FactoryBuild",

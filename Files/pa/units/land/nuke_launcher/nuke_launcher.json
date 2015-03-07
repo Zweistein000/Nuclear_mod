@@ -3,7 +3,7 @@
     "display_name": "!LOC(units:nuclear_missile_launcher.message):Nuclear Missile Launcher",
     "description": "!LOC(units:nuclear_missile_launcher_equipped_with_advanced_long_range_large_area_damage_nuclear_missile.message):Nuclear missile launcher- Equipped with advanced long range, large area damage, nuclear missile.",
     "max_health": 500,
-    "build_metal_cost": 90,
+    "build_metal_cost": 900,
     "atrophy_rate": 240,
     "atrophy_cool_down": 15,
     "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",

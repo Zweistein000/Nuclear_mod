@@ -3,7 +3,7 @@
     "display_name": "!LOC(units:fabrication_aircraft.message):Fabrication Aircraft",
     "description": "!LOC(units:basic_fabricator_wired_to_build_structures.message):Basic fabricator- Wired to build structures.",
     "max_health": 100,
-    "build_metal_cost": 5,
+    "build_metal_cost": 50,
     "attachable": {
         "offsets": {
             "root": [

@@ -3,7 +3,7 @@
   "display_name": "Kestrel",
   "description": "A gunship designed to murder tanks.",
   "max_health": 250,
-  "build_metal_cost": 6,
+  "build_metal_cost": 60,
   "spawn_layers": "WL_Air",
   "unit_types": [
     "UNITTYPE_Gunship",

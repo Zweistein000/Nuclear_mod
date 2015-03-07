@@ -4,7 +4,7 @@
     "description": "Self destructs with a nuke explosion.",
     "armor_type": "AT_Suicide",
     "max_health": 500,
-    "build_metal_cost": 7,
+    "build_metal_cost": 70,
     "attachable": {
         "offsets": {
             "root": [
@@ -23,7 +23,8 @@
         "ORDER_Move",
         "ORDER_Attack",
         "ORDER_Assist",
-        "ORDER_Use"
+        "ORDER_Use",
+        "ORDER_Repair"
     ],
     "unit_types": [
         "UNITTYPE_Tank",
@@ -68,6 +69,11 @@
     "tools": [
         {
             "spec_id": "/pa/units/land/tank_heavy_armor/tank_heavy_armor_tool_weapon.json",
+            "aim_bone": "bone_turret",
+            "muzzle_bone": "socket_muzzle"
+        },
+		{
+            "spec_id": "/pa/units/land/tank_heavy_armor/tank_heavy_armor_build_arm.json",
             "aim_bone": "bone_turret",
             "muzzle_bone": "socket_muzzle"
         }

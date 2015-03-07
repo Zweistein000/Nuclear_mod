@@ -3,13 +3,13 @@
     "display_name": "!LOC(units:energy_storage.message):Energy Storage",
     "description": "!LOC(units:manufacturing_increases_maximum_energy_storage_capacity.message):Manufacturing- Increases maximum energy storage capacity.",
     "max_health": 250,
-    "build_metal_cost": 5,
+    "build_metal_cost": 50,
     "atrophy_rate": 7.5,
     "atrophy_cool_down": 15,
     "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
     "area_build_type": "Sphere",
     "storage": {
-        "energy": 100
+        "energy": 1000
     },
     "unit_types": [
         "UNITTYPE_Structure",

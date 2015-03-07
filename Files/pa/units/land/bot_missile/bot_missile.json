@@ -2,7 +2,7 @@
     "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
     "display_name": "Stinger",
     "description": "Aphibious bot equiped with all around missiles and torpedoes.",
-    "build_metal_cost": 1,
+    "build_metal_cost": 10,
     "max_health": 100,
     "attachable": {
         "offsets": {

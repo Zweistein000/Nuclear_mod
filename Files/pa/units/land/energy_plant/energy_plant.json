@@ -3,13 +3,13 @@
     "display_name": "!LOC(units:energy_plant.message):Energy Plant",
     "description": "!LOC(units:basic_manufacturing_produces_energy.message):Basic manufacturing- Produces energy.",
     "max_health": 250,
-    "build_metal_cost": 10,
+    "build_metal_cost": 100,
     "atrophy_rate": 7.5,
     "atrophy_cool_down": 15,
     "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
     "area_build_type": "Line",
     "production": {
-        "energy": 5
+        "energy": 50
     },
     "unit_types": [
         "UNITTYPE_Structure",

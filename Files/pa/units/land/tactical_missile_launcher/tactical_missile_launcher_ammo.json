@@ -1,7 +1,7 @@
 {
   "audio_loop": "/SE/Movement/missile/nuke_missile_fly_loop", 
   "base_spec": "/pa/ammo/large_missile/nuke_tac.json", 
-  "build_metal_cost": 25, 
+  "build_metal_cost": 250, 
   "burn_damage": 200,
   "burn_radius": 80,
   "collision_check": "ground", 

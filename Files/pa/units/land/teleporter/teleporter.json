@@ -4,7 +4,7 @@
     "display_name": "!LOC(units:teleporter.message):Teleporter",
     "description": "!LOC(units:teleporter_teleports_units_from_one_to_another.message):Teleporter: Teleports units from one to another.",
     "max_health": 9750,
-    "build_metal_cost": 20,
+    "build_metal_cost": 200,
     "atrophy_rate": 6.66667,
     "atrophy_cool_down": 15,
     "spawn_layers": "WL_LandHorizontal",
@@ -159,7 +159,7 @@
         "handler_type": "inert"
     },
     "teleporter": {
-        "energy_demand": 10
+        "energy_demand": 100
     },
     "useable": {
         "type": "teleporter",

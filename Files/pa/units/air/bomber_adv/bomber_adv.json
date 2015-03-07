@@ -3,7 +3,7 @@
   "display_name": "Hornet",
   "description": "Carpet nuke bomber, 15 energy recharge cost.",
   "max_health": 500,
-  "build_metal_cost": 300,
+  "build_metal_cost": 3000,
   "unit_types": [
     "UNITTYPE_Bomber",
     "UNITTYPE_Mobile",
@@ -13,7 +13,7 @@
   ],
     "production": {
         "metal": -5
-		"energy": -75
+		"energy": -750
     },
   "guard_radius": 100,
   "armor_type": "AT_Bomber",

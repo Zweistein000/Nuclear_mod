@@ -3,7 +3,7 @@
     "display_name": "Kraken",
     "description": "Firs Strategic nukes, only detectable in water.",
     "max_health": 125,
-    "build_metal_cost": 750,
+    "build_metal_cost": 7500,
     "spawn_layers": "WL_Underwater",
     "mesh_bounds": [
         5,

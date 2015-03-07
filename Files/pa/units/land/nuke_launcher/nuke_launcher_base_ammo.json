@@ -3,7 +3,7 @@
     "description": "!LOC(units:nuclear_missile_long_range_large_area_damage_projectile.message):Nuclear missile - Long range, large area damage, projectile",
     "has_notifications": true,
     "ammo_type": "Projectile",
-    "build_metal_cost": 600,
+    "build_metal_cost": 6000,
     "flight_type": "Staged",
     "damage": 600,
     "splash_damage": 600,

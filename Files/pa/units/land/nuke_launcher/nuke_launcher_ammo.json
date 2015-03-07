@@ -3,7 +3,7 @@
     "description": "Supremely Advanced Totally Overpowered Nuclear missile. Made in hell.",
     "has_notifications": true,
     "ammo_type": "Projectile",
-    "build_metal_cost": 3000,
+    "build_metal_cost": 30000,
     "flight_type": "Staged",
     "damage": 10000,
     "splash_damage": 5000,

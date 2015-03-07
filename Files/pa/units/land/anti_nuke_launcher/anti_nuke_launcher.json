@@ -3,7 +3,7 @@
     "display_name": "!LOC(units:anti_nuke_launcher.message):Anti-Nuke Launcher",
     "description": "!LOC(units:anti_nuke_launcher_equipped_with_advanced_anti_nuclear_missile_weapon.message):Anti-nuke launcher- Equipped with advanced anti-nuclear missile weapon.",
     "max_health": 3500,
-    "build_metal_cost": 10,
+    "build_metal_cost": 100,
     "atrophy_rate": 200,
     "atrophy_cool_down": 15,
     "area_build_type": "Sphere",
