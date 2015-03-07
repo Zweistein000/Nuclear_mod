@@ -16,9 +16,13 @@
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/air"
     },
-    "fired": {
-      "audio_cue": "/SE/Weapons/air/gunship_fire",
+    "fired0": {
+      "audio_cue": "/SE/Weapons/air/fighter_fire",
       "effect_spec": "/pa/units/air/gunship/gunship_muzzle_flash.pfx socket_rightMuzzle /pa/units/air/gunship/gunship_muzzle_flash.pfx socket_leftMuzzle"
+    },
+    "fired1": {
+      "audio_cue": "/SE/Weapons/commander/Commander_gun_fire",
+      "effect_spec": "/pa/units/air/gunship/gunship_muzzle_flash.pfx bone_root"
     },
     "died": {
       "audio_cue": "/SE/Death/Air",
@@ -89,6 +93,8 @@
     {
       "aim_bone": "bone_rightRecoil",
       "spec_id": "/pa/units/air/gunship/gunship_missile_tool_weapon.json",
+            "record_index": 0,
+            "fire_event": "fired0",
       "muzzle_bone": [
         "socket_rightMuzzle",
         "socket_leftMuzzle"
@@ -97,6 +103,8 @@
     {
       "aim_bone": "bone_root",
       "spec_id": "/pa/units/air/gunship/gunship_tool_weapon.json",
+            "record_index": 1,
+            "fire_event": "fired1",
       "muzzle_bone": "bone_root"
     }
   ],

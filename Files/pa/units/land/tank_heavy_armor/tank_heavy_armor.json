@@ -24,7 +24,9 @@
         "ORDER_Attack",
         "ORDER_Assist",
         "ORDER_Use",
-        "ORDER_Repair"
+        "ORDER_Reclaim",
+        "ORDER_Repair",
+        "ORDER_Assist"
     ],
     "unit_types": [
         "UNITTYPE_Tank",
@@ -66,6 +68,13 @@
         "filename": "/pa/units/land/tank_heavy_armor/tank_heavy_armor.papa",
         "animtree": "/pa/anim/anim_trees/tank_armor_anim_tree.json"
     },
+    "fx_offsets": [
+        {
+            "type": "build",
+            "filename": "/pa/effects/specs/fab_spray.pfx",
+            "bone": "socket_muzzle"
+        }
+    ],
     "tools": [
         {
             "spec_id": "/pa/units/land/tank_heavy_armor/tank_heavy_armor_tool_weapon.json",
