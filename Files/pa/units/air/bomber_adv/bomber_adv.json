@@ -13,7 +13,6 @@
   ],
     "production": {
         "metal": -5
-		"energy": -750
     },
   "guard_radius": 100,
   "armor_type": "AT_Bomber",
