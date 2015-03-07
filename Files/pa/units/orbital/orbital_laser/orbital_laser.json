@@ -10,7 +10,7 @@
     }
   }, 
   "base_spec": "/pa/units/orbital/base_orbital/base_orbital1.json", 
-  "build_metal_cost": 1000, 
+  "build_metal_cost": 10000, 
   "command_caps": [
     "ORDER_Move", 
     "ORDER_Patrol", 
