@@ -54,7 +54,7 @@ function BuildHotkeyModel() {
             "/pa/units/land/fabrication_bot_adv/fabrication_bot_adv.json": ["bot", 13],   
             "/pa/units/land/bot_bomb/bot_bomb.json": ["bot", 12],
             "/pa/units/land/fabrication_bot/fabrication_bot.json": ["bot", 10],     
-            "/pa/units/land/bot_missile/bot_missile.json": ["bot", 11],
+            "/pa/units/land/assault_bot/assault_bot.json": ["bot", 11],
             "/pa/units/land/bot_tactical_missile/bot_tactical_missile.json": ["bot", 14],
      
             
