@@ -1,7 +1,7 @@
 {
     "base_spec": "/pa/units/land/base_bot/base_bot.json",
     "display_name": "!LOC(units:advanced_fabrication_bot.message):Advanced Fabrication Bot",
-    "description": "!LOC(units:advanced_fabricator_wired_to_build_structures.message):Advanced fabricator- Wired to build structures.",
+    "description": "Advanced fabricator- Wired to build advanced structures.",
     "max_health": 100,
     "spawn_layers": "WL_LandHorizontal",
     "build_metal_cost": 200,

@@ -1,7 +1,7 @@
 {
     "base_spec": "/pa/units/land/base_structure/base_structure.json",
     "display_name": "Missile Turret",
-    "description": "Advanced turret- Fires High Damage Missiles at Single Targets.",
+    "description": "Missile Turret- Fires Tactical Nuclear Missiles in an Arc",
     "max_health": 500,
     "build_metal_cost": 300,
     "atrophy_rate": 5,

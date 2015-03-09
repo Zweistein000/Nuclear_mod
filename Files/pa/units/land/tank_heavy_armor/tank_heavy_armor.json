@@ -1,7 +1,7 @@
 {
     "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
     "display_name": "Annihilator",
-    "description": "Self destructs with a nuke explosion.",
+    "description": "Self destructs with a nuke explosion. Also a combat fabricator.",
     "armor_type": "AT_Suicide",
     "max_health": 500,
     "build_metal_cost": 70,

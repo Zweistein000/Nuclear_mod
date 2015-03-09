@@ -1,7 +1,7 @@
 {
     "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
-    "display_name": "!LOC(units:advanced_fabrication_vehicle.message):Advanced Fabrication Vehicle",
-    "description": "!LOC(units:advanced_fabricator_wired_to_build_structures.message):Advanced fabricator- Wired to build structures.",
+    "display_name": "Advanced Fabrication Vehicle",
+    "description": "Advanced fabricator- Wired to build advanced structures.",
     "max_health": 500,
     "build_metal_cost": 200,
     "attachable": {

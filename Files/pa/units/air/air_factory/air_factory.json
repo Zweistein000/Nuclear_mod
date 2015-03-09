@@ -1,7 +1,7 @@
 {
     "base_spec": "/pa/units/land/base_structure/base_structure.json",
-    "display_name": "!LOC(units:air_factory.message):Air Factory",
-    "description": "!LOC(units:basic_manufacturing_builds_air_units.message):Basic manufacturing- Builds air units.",
+    "display_name": "Basic Air Factory",
+    "description": "Basic manufacturing- Builds Gunships, Air Fabricators, and Nuke Fighters.",
     "max_health": 500,
     "build_metal_cost": 200,
     "atrophy_rate": 12,

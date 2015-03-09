@@ -1,7 +1,7 @@
 {
     "base_spec": "/pa/units/land/base_structure/base_structure.json",
-    "display_name": "!LOC(units:flak_cannon.message):Flak Cannon",
-    "description": "!LOC(units:advanced_turret_equipped_with_anti_air_turret.message):Advanced turret- Equipped with anti-air turret.",
+    "display_name": "Flak Cannon",
+    "description": "AA turret- Equipped with rapid fire anit-air explosive beams.",
     "max_health": 500,
     "build_metal_cost": 200,
     "atrophy_rate": 26.66667,
