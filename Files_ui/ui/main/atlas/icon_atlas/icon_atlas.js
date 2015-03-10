@@ -117,7 +117,7 @@ $(document).ready(function () {
 			'nuke_launcher_base_ammo',
 			'orbital_bombardment_platform_ammo',
 			'tactical_missile_launcher_ammo',
-			'nuclear_sub_ammo_missile'
+			'nuclear_sub_ammo_missile',
             'unit_cannon'
         ]);
 
