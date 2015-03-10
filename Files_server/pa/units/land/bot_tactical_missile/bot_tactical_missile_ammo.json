@@ -9,6 +9,7 @@
     "max_velocity": 80,
     "turn_rate": 45,
     "lifetime": 15,
+  "show_strategic_icon": true,
   "burn_damage": 200,
   "burn_radius": 80,
     "max_health": 1,
