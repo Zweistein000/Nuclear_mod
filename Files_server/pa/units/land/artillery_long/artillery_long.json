@@ -32,6 +32,9 @@
             ]
         }
     },
+    "death_weapon": {
+        "ground_ammo_spec": "/pa/ammo/self_destruct/adv_pgen.json"
+    },
     "model": [
         {
             "layer": "WL_LandHorizontal",
