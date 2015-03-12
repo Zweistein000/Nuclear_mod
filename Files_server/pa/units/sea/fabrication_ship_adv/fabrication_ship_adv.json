@@ -38,7 +38,7 @@
     "transportable": {
         "size": 1
     },
-    "buildable_types": "Naval & Structure & Advanced | Naval & Factory & Advanced | FabAdvBuild | FabBuild | Orbital",
+    "buildable_types": "Naval & Structure & Advanced | Naval & Factory & Advanced | FabAdvBuild | FabBuild",
     "physics": {
         "shape": "sphere",
         "radius": 6,

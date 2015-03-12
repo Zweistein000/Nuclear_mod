@@ -18,7 +18,7 @@
             ]
         }
     },
-    "buildable_types": "Structure & Land & Advanced - Factory | Factory & Land & Tank & Advanced | FabAdvBuild | FabBuild | Orbital",
+    "buildable_types": "Structure & Land & Advanced - Factory | Factory & Land & Tank & Advanced | FabAdvBuild | FabBuild",
     "unit_types": [
         "UNITTYPE_Fabber",
         "UNITTYPE_Construction",
