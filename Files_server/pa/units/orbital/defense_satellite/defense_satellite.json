@@ -46,13 +46,13 @@
                     "layer": "orbital",
                     "channel": "sight",
                     "shape": "sphere",
-                    "radius": 280
+                    "radius": 150
                 },
                 {
                     "layer": "surface_and_air",
                     "channel": "sight",
                     "shape": "capsule",
-                    "radius": 120
+                    "radius": 50
                 }
             ]
         }

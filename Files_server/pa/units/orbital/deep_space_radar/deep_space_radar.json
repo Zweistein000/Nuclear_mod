@@ -50,12 +50,6 @@
                     "shape": "capsule",
                     "radius": 500,
                     "uses_energy": true
-                },
-                {
-                    "layer": "underwater",
-                    "channel": "sight",
-                    "shape": "capsule",
-                    "radius": 70
                 }
             ]
         }
