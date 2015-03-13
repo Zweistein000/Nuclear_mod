@@ -3,7 +3,7 @@
     "display_name": "Anchor",
     "description": "Defensive nuke satellite- Fires tactical nukes at the ground. Small attack radius.",
     "max_health": 1000,
-    "build_metal_cost": 2000,
+    "build_metal_cost": 300,
     "atrophy_rate": 60,
     "atrophy_cool_down": 15,
     "spawn_layers": "WL_Orbital",
