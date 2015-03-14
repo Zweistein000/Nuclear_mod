@@ -39,7 +39,7 @@
                 },
                 {
                     "layer": "celestial",
-                    "channel": "sight",
+                    "channel": "radar",
                     "shape": "sphere",
                     "radius": 1,
                     "uses_energy": true
@@ -48,7 +48,7 @@
                     "layer": "orbital",
                     "channel": "sight",
                     "shape": "capsule",
-                    "radius": 500,
+                    "radius": 300,
                     "uses_energy": true
                 }
             ]

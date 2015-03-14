@@ -6,6 +6,7 @@
     "build_metal_cost": 250,
     "system_velocity_multiplier": 10,
     "gravwell_velocity_multiplier": 5,
+    "armor_type": "AT_Orbital",
     "usable": true,
     "attachable": {
         "offsets": {

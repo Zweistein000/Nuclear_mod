@@ -1,0 +1,15 @@
+{
+  "recon": {
+    "observable": {
+      "always_visible": true, 
+      "ignore_radar": true, 
+      "layer": "orbital", 
+      "sphere_radius": 5
+    }
+  }, 
+  "spawn_response": {
+    "audio_cue": "/SE/Impacts/missile_nuke", 
+            "effect_spec": "/pa/effects/specs/mining_platform_orbital_explosion.pfx",
+            "effect_scale": 1
+  }
+}

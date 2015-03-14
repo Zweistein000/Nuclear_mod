@@ -18,7 +18,6 @@
         "/pa/units/land/unit_cannon/unit_cannon_deploy.json"
     ],
     "target_layers": [
-        "Orbital",
-        "WL_Air"
+        "Orbital"
     ]
 }

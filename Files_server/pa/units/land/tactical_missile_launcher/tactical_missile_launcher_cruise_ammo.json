@@ -26,9 +26,7 @@
       0
     ]
   },
-  "gravwell_velocity_multiplier": 20, 
   "initial_velocity": 80,
-  "interplanetary_type": "INTER_System", 
   "lifetime": 0, 
   "max_velocity": 120, 
   "model": {
@@ -79,7 +77,6 @@
   "system_velocity_multiplier": 20, 
   "turn_rate": 15, 
   "unit_types": [
-    "UNITTYPE_Mobile", 
-    "UNITTYPE_Orbital"
+    "UNITTYPE_Mobile"
   ]
 }

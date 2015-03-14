@@ -61,6 +61,12 @@
                     "channel": "sight",
                     "shape": "capsule",
                     "radius": 125
+                },
+                {
+                    "layer": "orbital",
+                    "channel": "radar",
+                    "shape": "capsule",
+                    "radius": 25
                 }
             ]
         }

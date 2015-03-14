@@ -3,7 +3,7 @@
     "display_name": "Orbital Launcher",
     "description": "Basic manufacturing- Builds and launches basic orbital units.",
     "max_health": 6000,
-    "build_metal_cost": 2700,
+    "build_metal_cost": 1000,
     "atrophy_rate": 45,
     "atrophy_cool_down": 15,
     "buildable_types": "Orbital & FactoryBuild & Basic",
@@ -22,8 +22,8 @@
         "UNITTYPE_Construction",
         "UNITTYPE_Structure",
         "UNITTYPE_Land",
-        "UNITTYPE_FabAdvBuild",
-        "UNITTYPE_Advanced",
+        "UNITTYPE_FabBuild",
+        "UNITTYPE_Basic",
         "UNITTYPE_Important"
     ],
     "command_caps": [
@@ -38,12 +38,6 @@
             "items": [
                 {
                     "layer": "surface_and_air",
-                    "channel": "sight",
-                    "shape": "capsule",
-                    "radius": 110
-                },
-                {
-                    "layer": "underwater",
                     "channel": "sight",
                     "shape": "capsule",
                     "radius": 110

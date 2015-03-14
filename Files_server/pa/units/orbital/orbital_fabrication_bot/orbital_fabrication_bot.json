@@ -3,10 +3,11 @@
     "display_name": "Orbital Fabrication Bot",
     "description": "Orbital Fabber- Builds orbital do-dads and what not.",
     "max_health": 50,
-    "build_metal_cost": 1600,
+    "build_metal_cost": 1000,
     "system_velocity_multiplier": 15,
     "gravwell_velocity_multiplier": 6,
     "spawn_layers": "WL_Orbital",
+    "armor_type": "AT_Orbital",
     "buildable_types": "FabOrbBuild",
     "unit_types": [
         "UNITTYPE_Orbital",
@@ -24,9 +25,6 @@
         "ORDER_Assist",
         "ORDER_Use"
     ],
-    "transportable": {
-        "size": 1
-    },
     "attachable": {
         "offsets": {
             "root": [

@@ -14,8 +14,7 @@
   "command_caps": [
     "ORDER_Move", 
     "ORDER_Patrol", 
-    "ORDER_Attack", 
-    "ORDER_SpecialMove"
+    "ORDER_Attack"
   ], 
   "description": "Orbital nuclear bombardment.", 
   "display_name": "SXX-NUK3", 

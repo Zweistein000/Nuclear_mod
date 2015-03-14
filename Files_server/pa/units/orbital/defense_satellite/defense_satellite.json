@@ -11,6 +11,7 @@
     "wreckage_health_frac": 0,
     "area_build_type": "Sphere",
     "area_build_separation": 75,
+    "armor_type": "AT_Orbital",
     "attachable": {
         "offsets": {
             "root": [
