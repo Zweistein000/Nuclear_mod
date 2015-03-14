@@ -23,7 +23,6 @@
         "UNITTYPE_EnergyProduction",
         "UNITTYPE_Economy",
 		"UNITTYPE_Important",
-        "UNITTYPE_Advanced",
         "UNITTYPE_FabOrbBuild"
     ],
     "command_caps": [
