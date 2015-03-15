@@ -3,7 +3,7 @@
     "display_name": "Boom-venger",
     "description": "Orbital fighter- Fast moving orbital fighter for offense and defense.",
     "build_metal_cost": 100,
-    "max_health": 250,
+    "max_health": 100,
     "gravwell_velocity_multiplier": 6,
     "wreckage_health_frac": 0,
     "spawn_layers": "WL_Orbital",
@@ -34,10 +34,10 @@
     "guard_layer": "WL_Orbital",
     "navigation": {
         "type": "orbital",
-        "acceleration": 50,
-        "brake": 50,
-        "move_speed": 50,
-        "turn_speed": 90,
+        "acceleration": 20,
+        "brake": 20,
+        "move_speed": 45,
+        "turn_speed": 120,
         "circle_min_time": 2,
         "circle_max_time": 4,
         "hover_time": -1,
@@ -57,7 +57,7 @@
                     "layer": "orbital",
                     "channel": "sight",
                     "shape": "sphere",
-                    "radius": 150
+                    "radius": 200
                 }
             ]
         }

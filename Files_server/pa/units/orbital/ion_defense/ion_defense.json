@@ -3,7 +3,7 @@
     "display_name": "Umbrella",
     "description": "Ion defense platform- Designed to take out orbital units above it.",
     "max_health": 500,
-    "build_metal_cost": 150,
+    "build_metal_cost": 100,
     "atrophy_rate": 29.16667,
     "atrophy_cool_down": 15,
     "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
@@ -29,19 +29,13 @@
                     "layer": "surface_and_air",
                     "channel": "sight",
                     "shape": "capsule",
-                    "radius": 100
+                    "radius": 75
                 },
                 {
                     "layer": "orbital",
-                    "channel": "sight",
+                    "channel": "radar",
                     "shape": "capsule",
-                    "radius": 300
-                },
-                {
-                    "layer": "underwater",
-                    "channel": "sight",
-                    "shape": "capsule",
-                    "radius": 100
+                    "radius": 150
                 }
             ]
         }

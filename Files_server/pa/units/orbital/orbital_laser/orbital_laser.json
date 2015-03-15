@@ -55,13 +55,12 @@
   }, 
   "navigation": {
     "aggressive_distance": 1, 
-    "acceleration": 2, 
+    "acceleration": 5, 
     "brake": 5, 
     "hover_time": -1.0, 
     "move_speed": 30, 
-    "turn_speed": 10, 
-    "type": "orbital", 
-    "vertical_speed": 1000
+    "turn_speed": 25, 
+    "type": "orbital"
   }, 
   "physics": {
     "gravity_scalar": 0.001, 
@@ -74,13 +73,13 @@
         {
           "channel": "sight", 
           "layer": "surface_and_air", 
-          "radius": 50, 
+          "radius": 75, 
           "shape": "capsule"
         }, 
         {
           "channel": "sight", 
           "layer": "orbital", 
-          "radius": 150, 
+          "radius": 100, 
           "shape": "sphere"
         }
       ]

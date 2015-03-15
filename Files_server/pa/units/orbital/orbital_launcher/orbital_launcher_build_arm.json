@@ -1,8 +1,8 @@
 {
     "base_spec": "/pa/tools/engineer_build_arm_adv/engineer_build_arm_adv.json",
     "construction_demand": {
-        "energy": 500,
-        "metal": 20
+        "energy": 30,
+        "metal": 10
     },
     "max_range": 30,
     "yaw_rate": 90,

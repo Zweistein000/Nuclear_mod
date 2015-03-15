@@ -1,11 +1,11 @@
 {
     "base_spec": "/pa/units/orbital/base_orbital/base_orbital.json",
-    "display_name": "Advanced Radar Satellite",
-    "description": "Stationary Vision radar.",
-    "max_health": 5000,
-    "build_metal_cost": 4000,
+    "display_name": "Omniscience Statellite",
+    "description": "Probides enoumous radar coverege of orbital layer and excellent coverege of ground layer.",
+    "max_health": 300,
+    "build_metal_cost": 3000,
     "spawn_layers": "WL_Orbital",
-    "gravwell_velocity_multiplier": 6,
+     "armor_type": "AT_Orbital",
     "attachable": {
         "offsets": {
             "root": [
@@ -16,7 +16,7 @@
         }
     },
     "consumption": {
-        "energy": 2000
+        "energy": 500
     },
     "energy_efficiency_requirement": 0.9,
     "unit_types": [
@@ -31,14 +31,6 @@
         "ORDER_Patrol",
         "ORDER_Assist"
     ],
-    "navigation": {
-        "type": "orbital",
-        "acceleration": 10,
-        "brake": 10,
-        "move_speed": 10,
-        "turn_speed": 90,
-        "hover_time": -1
-    },
     "physics": {
         "radius": 5,
         "push_class": 15,
@@ -51,28 +43,28 @@
                     "layer": "surface_and_air",
                     "channel": "radar",
                     "shape": "capsule",
-                    "radius": 1200,
+                    "radius": 500,
                     "uses_energy": true
                 },
                 {
                     "layer": "surface_and_air",
                     "channel": "sight",
                     "shape": "capsule",
-                    "radius": 600,
+                    "radius": 250,
                     "uses_energy": true
                 },
                 {
                     "layer": "orbital",
                     "channel": "sight",
                     "shape": "capsule",
-                    "radius": 300,
+                    "radius": 400,
                     "uses_energy": true
                 },
                 {
                     "layer": "orbital",
                     "channel": "radar",
                     "shape": "capsule",
-                    "radius": 1000,
+                    "radius": 800,
                     "uses_energy": true
                 },
                 {
@@ -80,6 +72,13 @@
                     "channel": "radar",
                     "shape": "capsule",
                     "radius": 50
+                },
+                {
+                    "layer": "celestial",
+                    "channel": "radar",
+                    "shape": "sphere",
+                    "radius": 1,
+                    "uses_energy": true
                 }
             ]
         }

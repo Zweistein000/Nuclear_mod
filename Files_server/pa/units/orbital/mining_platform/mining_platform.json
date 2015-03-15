@@ -3,7 +3,7 @@
     "display_name": "!LOC(units:jig.message):Jig",
     "description": "!LOC(units:gas_mining_and_metal_creation_satellite_only_works_above_gas_giant_planets.message):Gas mining and metal creation satellite. Only works above gas giant planets.",
     "max_health": 500,
-    "build_metal_cost": 3000,
+    "build_metal_cost": 1000,
     "spawn_layers": "WL_Orbital",
     "armor_type": "AT_Orbital",
     "area_build_type": "Sphere",
@@ -12,10 +12,6 @@
     "production": {
         "energy": -200,
         "metal": 10
-    },
-    "storage": {
-        "energy": 50000,
-        "metal": 10000
     },
     "unit_types": [
         "UNITTYPE_Orbital",

@@ -44,7 +44,7 @@
                     "layer": "orbital",
                     "channel": "radar",
                     "shape": "capsule",
-                    "radius": 150,
+                    "radius": 100,
                     "uses_energy": true
                 },
                 {
@@ -57,7 +57,7 @@
                     "layer": "underwater",
                     "channel": "radar",
                     "shape": "capsule",
-                    "radius": 200
+                    "radius": 150
                 }
             ]
         }

@@ -1,0 +1,29 @@
+{
+    "base_spec": "/pa/tools/base_missile_tactical_turret/base_missile_tactical_turret.json",
+    "tool_type": "TOOL_Weapon",
+    "ammo_id": "/pa/units/land/bot_tactical_missile/bot_tactical_missile_antinuke_ammo.json",
+    "rate_of_fire": 0.05,
+    "max_range": 100,
+    "yaw_rate": 0,
+    "pitch_rate": 0,
+    "yaw_range": 180,
+    "pitch_range": 180,
+    "spread_fire": true,
+    "firing_arc_yaw": 180,
+    "firing_arc_pitch": 180,
+    "manual_fire": true,
+    "auto_attack": false,
+    "auto_task_type": "anti_entity",
+    "anti_entity_targets": [
+        "/pa/units/land/nuke_launcher/nuke_launcher_ammo.json",
+		"/pa/units/land/nuke_launcher/nuke_launcher_base_ammo.json",
+		"/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_ammo.json",
+		"/pa/units/land/bot_tactical_missile/bot_tactical_missile_ammo.json",
+		"/pa/units/sea/nuclear_sub/nuclear_sub_ammo_missile.json",
+		"/pa/units/orbital/orbital_laser/orbital_bombardment_platform_ammo.json"
+    ],
+    "target_layers": [
+        "WL_Air",
+        "WL_Orbital"
+    ]
+}
