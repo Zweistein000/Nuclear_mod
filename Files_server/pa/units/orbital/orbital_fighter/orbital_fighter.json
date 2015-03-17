@@ -97,8 +97,7 @@
         },
         "died": {
             "audio_cue": "/SE/Death/orbital",
-            "effect_spec": "/pa/effects/specs/mining_platform_orbital_explosion.pfx",
-            "effect_scale": 1
+      "effect_spec": "/pa/effects/specs/default_explosion.pfx"
         }
     },
     "mesh_bounds": [
