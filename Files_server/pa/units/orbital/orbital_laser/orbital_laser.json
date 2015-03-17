@@ -24,8 +24,9 @@
       "audio_cue": "/SE/Build_Complete/orbital"
     }, 
     "died": {
-      "audio_cue": "/SE/Death/orbital", 
-      "effect_spec": "/pa/effects/specs/default_explosion.pfx"
+            "audio_cue": "/SE/Impacts/missile_nuke",
+            "effect_spec": "/pa/effects/specs/mining_platform_orbital_explosion.pfx",
+            "effect_scale": 1
     },
    "death_weapon": {
         "ground_ammo_spec": "/pa/ammo/nuke_pbaoe/nuke_orbitalpbaoe.json"

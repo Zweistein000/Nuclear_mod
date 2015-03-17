@@ -39,6 +39,7 @@
     "ignore_gravity": true,
     "add_to_spatial_db": true
   },
+  "show_strategic_icon": true, 
   "spawn_layers": "WL_Air", 
   "splash_damage": 50, 
   "splash_damages_allies": true, 

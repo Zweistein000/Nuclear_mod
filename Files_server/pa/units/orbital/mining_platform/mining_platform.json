@@ -190,7 +190,7 @@
             "audio_cue": "/SE/Build_Complete/orbital_platform"
         },
         "died": {
-            "audio_cue": "/SE/Death/orbital",
+            "audio_cue": "/SE/Impacts/missile_nuke",
             "effect_spec": "/pa/effects/specs/mining_platform_orbital_explosion.pfx",
             "effect_scale": 1
         }

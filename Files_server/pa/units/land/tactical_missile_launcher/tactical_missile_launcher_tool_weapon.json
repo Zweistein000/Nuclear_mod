@@ -14,7 +14,8 @@
   "rate_of_fire": 1, 
   "target_layers": [
     "WL_LandHorizontal", 
-    "WL_WaterSurface"
+    "WL_WaterSurface",
+	"orbital"
   ], 
   "yaw_range": 180, 
   "yaw_rate": 0
