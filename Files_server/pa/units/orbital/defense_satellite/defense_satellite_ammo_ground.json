@@ -5,7 +5,7 @@
     "splash_radius": 50,
   "full_damage_splash_radius": 10,
     "cruise_height": 40,
-    "initial_velocity": 80,
+    "initial_velocity": 40,
     "max_velocity": 80,
     "turn_rate": 45,
     "lifetime": 15,
