@@ -1,7 +1,7 @@
 {
     "base_spec": "/pa/units/orbital/base_orbital/base_orbital.json",
-    "display_name": "Omniscience Statellite",
-    "description": "Probides enoumous radar coverege of orbital layer and excellent coverege of ground layer.",
+    "display_name": "Omniscience Satellite",
+    "description": "Provides enoumous radar coverege of orbital layer and excellent coverege of ground layer.",
     "max_health": 300,
     "build_metal_cost": 3000,
     "spawn_layers": "WL_Orbital",
@@ -71,7 +71,7 @@
                     "layer": "underwater",
                     "channel": "radar",
                     "shape": "capsule",
-                    "radius": 50
+                    "radius": 75
                 },
                 {
                     "layer": "celestial",
