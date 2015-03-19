@@ -23,7 +23,7 @@
     ],
     "physics": {
         "radius": 20,
-        "push_class": 15,
+        "push_class": 50,
         "collision_layers": "WL_Orbital",
         "ignore_gravity": true
     },

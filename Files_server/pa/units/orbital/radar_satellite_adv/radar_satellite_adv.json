@@ -33,7 +33,7 @@
     ],
     "physics": {
         "radius": 5,
-        "push_class": 15,
+        "push_class": 50,
         "gravity_scalar": 0.001
     },
     "recon": {

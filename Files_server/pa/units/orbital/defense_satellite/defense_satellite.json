@@ -13,8 +13,8 @@
     "area_build_separation": 75,
     "armor_type": "AT_Orbital",
     "production": {
-        "metal": -1,
-        "energy": -100
+        "metal": -10,
+        "energy": -1000
     },
     "attachable": {
         "offsets": {
